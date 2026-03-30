@@ -1,0 +1,107 @@
+order_id,adjustment_type,adjustment_amount,reason,account_name,memo_status
+SO-00068,Credit Memo,911.04,Price mismatch against expected order price,Walmart,Closed
+SO-00429,Credit Memo,822.69,Price mismatch against expected order price,Walmart,Pending
+SO-00348,Credit Memo,803.2,Price mismatch against expected order price,Lowe's,Closed
+SO-00525,Credit Memo,792.8,Price mismatch against expected order price,Best Buy,Pending
+SO-00350,Credit Memo,784.74,Price mismatch against expected order price,Target,Pending
+SO-00424,Credit Memo,759.22,Price mismatch against expected order price,Lowe's,Pending
+SO-00015,Credit Memo,711.36,Price mismatch against expected order price,Lowe's,Pending
+SO-00318,Credit Memo,708.8,Price mismatch against expected order price,Amazon,Pending
+SO-00314,Debit Memo,609.14,Price mismatch against expected order price,Lowe's,Pending
+SO-00106,Credit Memo,568.85,Price mismatch against expected order price,Walmart,Pending
+SO-00372,Credit Memo,549.01,Price mismatch against expected order price,Home Depot,Pending
+SO-00269,Credit Memo,534.47,Price mismatch against expected order price,Walmart,Pending
+SO-00049,Credit Memo,532.68,Price mismatch against expected order price,Walmart,Pending
+SO-00428,Credit Memo,526.14,Price mismatch against expected order price,Amazon,Closed
+SO-00211,Debit Memo,509.4,Price mismatch against expected order price,Costco,Pending
+SO-00064,Credit Memo,465.6,Price mismatch against expected order price,Macy's,Closed
+SO-00503,Credit Memo,453.85,Price mismatch against expected order price,Walmart,Closed
+SO-00479,Credit Memo,447.44,Price mismatch against expected order price,Costco,Closed
+SO-00234,Credit Memo,441.83,Price mismatch against expected order price,Best Buy,Pending
+SO-00414,Debit Memo,436.5,Price mismatch against expected order price,Amazon,Closed
+SO-00418,Debit Memo,420.94,Price mismatch against expected order price,Target,Pending
+SO-00007,Credit Memo,420.9,Price mismatch against expected order price,Lowe's,Pending
+SO-00475,Credit Memo,417.45,Price mismatch against expected order price,Target,Pending
+SO-00159,Debit Memo,414.78,Price mismatch against expected order price,Lowe's,Pending
+SO-00282,Debit Memo,412.62,Price mismatch against expected order price,Target,Closed
+SO-00513,Credit Memo,410.04,Price mismatch against expected order price,Amazon,Pending
+SO-00267,Credit Memo,389.98,Price mismatch against expected order price,Lowe's,Closed
+SO-00333,Credit Memo,374.0,Price mismatch against expected order price,Costco,Pending
+SO-00434,Credit Memo,367.71,Price mismatch against expected order price,Amazon,Closed
+SO-00437,Credit Memo,362.01,Price mismatch against expected order price,Target,Pending
+SO-00451,Debit Memo,351.33,Price mismatch against expected order price,Walmart,Pending
+SO-00298,Debit Memo,330.14,Price mismatch against expected order price,Home Depot,Pending
+SO-00209,Credit Memo,326.8,Price mismatch against expected order price,Best Buy,Pending
+SO-00470,Debit Memo,322.43,Price mismatch against expected order price,Macy's,Pending
+SO-00055,Credit Memo,318.56,Price mismatch against expected order price,Amazon,Pending
+SO-00323,Credit Memo,306.72,Price mismatch against expected order price,Lowe's,Closed
+SO-00016,Credit Memo,303.0,Price mismatch against expected order price,Walmart,Pending
+SO-00177,Credit Memo,301.84,Price mismatch against expected order price,Best Buy,Closed
+SO-00338,Credit Memo,288.65,Price mismatch against expected order price,Best Buy,Closed
+SO-00144,Debit Memo,285.0,Price mismatch against expected order price,Walmart,Pending
+SO-00489,Credit Memo,282.31,Price mismatch against expected order price,Costco,Closed
+SO-00275,Credit Memo,278.76,Price mismatch against expected order price,Costco,Pending
+SO-00357,Credit Memo,278.63,Price mismatch against expected order price,Costco,Closed
+SO-00382,Debit Memo,278.46,Price mismatch against expected order price,Macy's,Pending
+SO-00378,Credit Memo,270.54,Price mismatch against expected order price,Amazon,Closed
+SO-00363,Debit Memo,258.02,Price mismatch against expected order price,Target,Pending
+SO-00285,Debit Memo,256.48,Price mismatch against expected order price,Amazon,Pending
+SO-00148,Debit Memo,224.64,Price mismatch against expected order price,Costco,Closed
+SO-00452,Debit Memo,222.12,Price mismatch against expected order price,Home Depot,Closed
+SO-00493,Credit Memo,218.88,Price mismatch against expected order price,Costco,Pending
+SO-00404,Debit Memo,213.64,Price mismatch against expected order price,Best Buy,Closed
+SO-00482,Credit Memo,213.2,Price mismatch against expected order price,Costco,Pending
+SO-00365,Credit Memo,209.55,Price mismatch against expected order price,Best Buy,Closed
+SO-00243,Debit Memo,208.65,Price mismatch against expected order price,Amazon,Closed
+SO-00529,Debit Memo,208.44,Price mismatch against expected order price,Best Buy,Closed
+SO-00069,Credit Memo,207.93,Price mismatch against expected order price,Target,Pending
+SO-00374,Credit Memo,207.7,Price mismatch against expected order price,Best Buy,Closed
+SO-00050,Credit Memo,204.75,Price mismatch against expected order price,Best Buy,Pending
+SO-00122,Credit Memo,200.86,Price mismatch against expected order price,Lowe's,Pending
+SO-00051,Debit Memo,185.9,Price mismatch against expected order price,Costco,Pending
+SO-00387,Debit Memo,176.55,Price mismatch against expected order price,Amazon,Pending
+SO-00312,Credit Memo,173.36,Price mismatch against expected order price,Target,Pending
+SO-00093,Debit Memo,158.0,Price mismatch against expected order price,Amazon,Closed
+SO-00495,Debit Memo,155.88,Price mismatch against expected order price,Lowe's,Pending
+SO-00366,Debit Memo,154.87,Price mismatch against expected order price,Lowe's,Pending
+SO-00406,Debit Memo,148.41,Price mismatch against expected order price,Best Buy,Closed
+SO-00538,Debit Memo,142.56,Price mismatch against expected order price,Walmart,Closed
+SO-00251,Credit Memo,141.96,Price mismatch against expected order price,Home Depot,Closed
+SO-00270,Debit Memo,137.31,Price mismatch against expected order price,Macy's,Pending
+SO-00017,Debit Memo,131.43,Price mismatch against expected order price,Lowe's,Pending
+SO-00089,Debit Memo,127.44,Price mismatch against expected order price,Target,Pending
+SO-00060,Credit Memo,119.28,Price mismatch against expected order price,Home Depot,Pending
+SO-00516,Credit Memo,115.15,Price mismatch against expected order price,Amazon,Closed
+SO-00340,Debit Memo,102.24,Price mismatch against expected order price,Amazon,Pending
+SO-00287,Credit Memo,94.5,Price mismatch against expected order price,Walmart,Closed
+SO-00286,Debit Memo,89.28,Price mismatch against expected order price,Home Depot,Pending
+SO-00256,Credit Memo,73.48,Price mismatch against expected order price,Target,Pending
+SO-00393,Credit Memo,69.15,Price mismatch against expected order price,Costco,Pending
+SO-00509,Debit Memo,67.65,Price mismatch against expected order price,Lowe's,Pending
+SO-00034,Credit Memo,65.4,Price mismatch against expected order price,Walmart,Pending
+SO-00539,Credit Memo,57.72,Price mismatch against expected order price,Macy's,Closed
+SO-00249,Credit Memo,55.68,Price mismatch against expected order price,Best Buy,Closed
+SO-00460,Debit Memo,52.78,Price mismatch against expected order price,Macy's,Pending
+SO-00156,Debit Memo,47.61,Price mismatch against expected order price,Costco,Pending
+SO-00062,Credit Memo,45.35,Price mismatch against expected order price,Home Depot,Pending
+SO-00427,Debit Memo,43.6,Price mismatch against expected order price,Target,Pending
+SO-00099,Credit Memo,43.52,Price mismatch against expected order price,Costco,Closed
+SO-00258,Debit Memo,41.37,Price mismatch against expected order price,Best Buy,Closed
+SO-00126,Credit Memo,32.8,Price mismatch against expected order price,Costco,Pending
+SO-00155,Credit Memo,27.0,Price mismatch against expected order price,Best Buy,Pending
+SO-00173,Credit Memo,26.76,Price mismatch against expected order price,Macy's,Pending
+SO-00158,Debit Memo,21.8,Price mismatch against expected order price,Macy's,Pending
+SO-00465,Credit Memo,20.58,Price mismatch against expected order price,Target,Closed
+SO-00410,Credit Memo,19.93,Price mismatch against expected order price,Target,Pending
+SO-00204,Credit Memo,18.35,Price mismatch against expected order price,Amazon,Pending
+SO-00134,Credit Memo,17.02,Price mismatch against expected order price,Macy's,Closed
+SO-00522,Credit Memo,16.9,Price mismatch against expected order price,Walmart,Closed
+SO-00229,Debit Memo,15.6,Price mismatch against expected order price,Costco,Pending
+SO-00514,Credit Memo,13.86,Price mismatch against expected order price,Macy's,Closed
+SO-00413,Debit Memo,12.84,Price mismatch against expected order price,Lowe's,Closed
+SO-00369,Debit Memo,10.88,Price mismatch against expected order price,Lowe's,Closed
+SO-00113,Debit Memo,9.08,Price mismatch against expected order price,Walmart,Pending
+SO-00039,Debit Memo,7.2,Price mismatch against expected order price,Costco,Closed
+SO-00486,Credit Memo,5.16,Price mismatch against expected order price,Lowe's,Pending
+SO-00073,Debit Memo,5.06,Price mismatch against expected order price,Target,Closed
+SO-00218,Credit Memo,3.04,Price mismatch against expected order price,Amazon,Closed

@@ -1,0 +1,91 @@
+case_id,order_id,account_name,deduction_code,charge_amount,finding,dispute_status,root_cause
+VC-0001,SO-00509,Lowe's,LABEL,85.46,Invalid,Submitted,Documentation gap
+VC-0002,SO-00381,Walmart,PACKAGING,354.33,Invalid,Submitted,Shipment timing dispute
+VC-0003,SO-00344,Costco,ASN,138.38,Valid,Accepted,Shipment timing dispute
+VC-0004,SO-00086,Macy's,PACKAGING,391.88,Invalid,Submitted,Routing guide mismatch
+VC-0005,SO-00438,Amazon,LABEL,102.91,Valid,Preventive Action Logged,Shipment timing dispute
+VC-0006,SO-00020,Best Buy,PACKAGING,441.5,Valid,Accepted,Retailer system error
+VC-0007,SO-00412,Home Depot,PACKAGING,461.18,Valid,Accepted,Label issue
+VC-0008,SO-00193,Home Depot,LABEL,385.75,Invalid,Recovered,Routing guide mismatch
+VC-0009,SO-00360,Lowe's,ASN,339.97,Invalid,Under Review,Retailer system error
+VC-0010,SO-00280,Target,SHORTAGE,625.89,Invalid,Recovered,Retailer system error
+VC-0011,SO-00384,Target,ASN,208.01,Valid,Accepted,Routing guide mismatch
+VC-0012,SO-00495,Lowe's,OTIF,52.04,Valid,Preventive Action Logged,Label issue
+VC-0013,SO-00258,Best Buy,OTIF,464.28,Invalid,Recovered,Retailer system error
+VC-0014,SO-00054,Macy's,ROUTING,561.82,Valid,Preventive Action Logged,Retailer system error
+VC-0015,SO-00372,Home Depot,SHORTAGE,225.19,Invalid,Under Review,Shipment timing dispute
+VC-0016,SO-00079,Target,SHORTAGE,629.79,Invalid,Under Review,Retailer system error
+VC-0017,SO-00254,Lowe's,PACKAGING,438.82,Valid,Accepted,Routing guide mismatch
+VC-0018,SO-00332,Macy's,OTIF,192.49,Invalid,Recovered,Packaging variance
+VC-0019,SO-00153,Walmart,ASN,153.11,Invalid,Submitted,Packaging variance
+VC-0020,SO-00242,Costco,OTIF,115.36,Valid,Preventive Action Logged,Shipment timing dispute
+VC-0021,SO-00164,Home Depot,PACKAGING,516.47,Invalid,Recovered,Packaging variance
+VC-0022,SO-00252,Home Depot,PACKAGING,634.87,Valid,Preventive Action Logged,Label issue
+VC-0023,SO-00246,Walmart,ROUTING,508.36,Invalid,Recovered,Packaging variance
+VC-0024,SO-00323,Lowe's,ASN,444.71,Valid,Preventive Action Logged,Label issue
+VC-0025,SO-00068,Walmart,PACKAGING,252.94,Invalid,Under Review,Packaging variance
+VC-0026,SO-00206,Best Buy,OTIF,358.81,Valid,Accepted,Routing guide mismatch
+VC-0027,SO-00260,Home Depot,LABEL,65.21,Invalid,Under Review,Documentation gap
+VC-0028,SO-00407,Macy's,ASN,63.67,Invalid,Recovered,Shipment timing dispute
+VC-0029,SO-00064,Macy's,SHORTAGE,580.55,Invalid,Submitted,Documentation gap
+VC-0030,SO-00447,Costco,LABEL,625.24,Invalid,Submitted,Documentation gap
+VC-0031,SO-00369,Lowe's,ASN,179.77,Invalid,Submitted,Shipment timing dispute
+VC-0032,SO-00374,Best Buy,OTIF,648.14,Valid,Accepted,Retailer system error
+VC-0033,SO-00436,Walmart,ASN,69.57,Invalid,Submitted,Retailer system error
+VC-0034,SO-00483,Walmart,LABEL,629.43,Invalid,Under Review,Routing guide mismatch
+VC-0035,SO-00537,Target,LABEL,328.99,Valid,Preventive Action Logged,Packaging variance
+VC-0036,SO-00237,Costco,ROUTING,573.68,Invalid,Recovered,Routing guide mismatch
+VC-0037,SO-00291,Costco,ROUTING,436.5,Valid,Preventive Action Logged,Label issue
+VC-0038,SO-00174,Amazon,OTIF,66.77,Valid,Preventive Action Logged,Documentation gap
+VC-0039,SO-00053,Amazon,OTIF,621.6,Valid,Accepted,Packaging variance
+VC-0040,SO-00304,Target,ROUTING,183.34,Invalid,Submitted,Packaging variance
+VC-0041,SO-00399,Amazon,OTIF,249.1,Invalid,Submitted,Label issue
+VC-0042,SO-00146,Home Depot,ROUTING,86.58,Invalid,Submitted,Shipment timing dispute
+VC-0043,SO-00094,Amazon,ROUTING,346.05,Invalid,Recovered,Shipment timing dispute
+VC-0044,SO-00111,Amazon,SHORTAGE,380.81,Invalid,Under Review,Label issue
+VC-0045,SO-00421,Macy's,SHORTAGE,526.86,Valid,Accepted,Packaging variance
+VC-0046,SO-00362,Walmart,OTIF,478.42,Valid,Accepted,Packaging variance
+VC-0047,SO-00074,Walmart,OTIF,642.96,Invalid,Recovered,Packaging variance
+VC-0048,SO-00223,Macy's,OTIF,216.23,Valid,Preventive Action Logged,Documentation gap
+VC-0049,SO-00015,Lowe's,ROUTING,157.33,Invalid,Under Review,Label issue
+VC-0050,SO-00474,Macy's,ROUTING,271.62,Invalid,Under Review,Documentation gap
+VC-0051,SO-00214,Best Buy,ASN,430.28,Invalid,Submitted,Retailer system error
+VC-0052,SO-00209,Best Buy,LABEL,407.24,Invalid,Submitted,Retailer system error
+VC-0053,SO-00404,Best Buy,OTIF,312.85,Invalid,Recovered,Routing guide mismatch
+VC-0054,SO-00535,Costco,ASN,593.27,Invalid,Submitted,Routing guide mismatch
+VC-0055,SO-00208,Walmart,ROUTING,132.95,Valid,Accepted,Label issue
+VC-0056,SO-00250,Lowe's,ROUTING,232.06,Valid,Accepted,Packaging variance
+VC-0057,SO-00406,Best Buy,OTIF,484.46,Invalid,Under Review,Retailer system error
+VC-0058,SO-00278,Lowe's,SHORTAGE,99.81,Valid,Accepted,Retailer system error
+VC-0059,SO-00507,Amazon,SHORTAGE,72.04,Invalid,Under Review,Documentation gap
+VC-0060,SO-00220,Best Buy,ROUTING,639.8,Invalid,Under Review,Documentation gap
+VC-0061,SO-00539,Macy's,LABEL,501.15,Invalid,Submitted,Packaging variance
+VC-0062,SO-00025,Home Depot,OTIF,561.55,Invalid,Submitted,Packaging variance
+VC-0063,SO-00221,Amazon,PACKAGING,355.03,Invalid,Recovered,Packaging variance
+VC-0064,SO-00442,Lowe's,OTIF,364.56,Invalid,Submitted,Shipment timing dispute
+VC-0065,SO-00047,Macy's,LABEL,272.17,Invalid,Submitted,Packaging variance
+VC-0066,SO-00212,Home Depot,PACKAGING,486.64,Valid,Preventive Action Logged,Retailer system error
+VC-0067,SO-00231,Macy's,LABEL,149.01,Invalid,Submitted,Routing guide mismatch
+VC-0068,SO-00326,Macy's,ASN,177.57,Invalid,Submitted,Label issue
+VC-0069,SO-00530,Costco,OTIF,442.4,Invalid,Under Review,Shipment timing dispute
+VC-0070,SO-00284,Home Depot,LABEL,468.75,Valid,Preventive Action Logged,Routing guide mismatch
+VC-0071,SO-00182,Walmart,LABEL,261.1,Invalid,Submitted,Packaging variance
+VC-0072,SO-00522,Walmart,SHORTAGE,290.13,Invalid,Recovered,Retailer system error
+VC-0073,SO-00106,Walmart,ROUTING,494.49,Valid,Preventive Action Logged,Documentation gap
+VC-0074,SO-00265,Macy's,LABEL,254.92,Invalid,Recovered,Retailer system error
+VC-0075,SO-00473,Best Buy,ASN,376.15,Invalid,Recovered,Retailer system error
+VC-0076,SO-00201,Target,ROUTING,227.38,Valid,Preventive Action Logged,Packaging variance
+VC-0077,SO-00456,Amazon,LABEL,286.59,Invalid,Submitted,Shipment timing dispute
+VC-0078,SO-00468,Macy's,SHORTAGE,310.62,Invalid,Under Review,Label issue
+VC-0079,SO-00255,Lowe's,OTIF,110.76,Valid,Preventive Action Logged,Packaging variance
+VC-0080,SO-00256,Target,ASN,197.8,Invalid,Submitted,Packaging variance
+VC-0081,SO-00490,Costco,PACKAGING,420.26,Invalid,Under Review,Label issue
+VC-0082,SO-00123,Amazon,ASN,551.42,Valid,Preventive Action Logged,Retailer system error
+VC-0083,SO-00066,Best Buy,SHORTAGE,551.78,Invalid,Recovered,Routing guide mismatch
+VC-0084,SO-00330,Macy's,ROUTING,305.85,Valid,Accepted,Shipment timing dispute
+VC-0085,SO-00105,Amazon,ROUTING,58.06,Valid,Accepted,Shipment timing dispute
+VC-0086,SO-00008,Best Buy,ASN,296.41,Invalid,Submitted,Label issue
+VC-0087,SO-00027,Amazon,ASN,609.0,Valid,Preventive Action Logged,Routing guide mismatch
+VC-0088,SO-00019,Target,ROUTING,534.14,Invalid,Submitted,Shipment timing dispute
+VC-0089,SO-00499,Walmart,OTIF,332.93,Valid,Preventive Action Logged,Label issue
+VC-0090,SO-00387,Amazon,PACKAGING,367.95,Invalid,Submitted,Documentation gap

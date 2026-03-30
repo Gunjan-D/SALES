@@ -1,0 +1,609 @@
+order_id,issue_type,severity,resolution_owner,account_name,status,notes
+SO-00001,Aged Order,High,Order Management,Walmart,Open,Monthly maintenance required
+SO-00001,Return Quantity Mismatch,Medium,Warehouse Support,Walmart,Open,Research receiving variance
+SO-00001,Open Customer Inquiry,Low,Customer Care,Walmart,Open,Pending customer update
+SO-00002,Aged Order,High,Order Management,Best Buy,Open,Monthly maintenance required
+SO-00003,Missing RA,High,Returns Desk,Lowe's,Closed,Customer follow-up needed
+SO-00003,Return Quantity Mismatch,Medium,Warehouse Support,Lowe's,Closed,Research receiving variance
+SO-00004,Return Quantity Mismatch,Medium,Warehouse Support,Amazon,Closed,Research receiving variance
+SO-00006,Aged Order,High,Order Management,Best Buy,Open,Monthly maintenance required
+SO-00007,Aged Order,High,Order Management,Lowe's,Open,Monthly maintenance required
+SO-00007,Return Quantity Mismatch,Medium,Warehouse Support,Lowe's,Open,Research receiving variance
+SO-00007,Pricing Variance,Medium,Sales Ops,Lowe's,Open,Review debit or credit memo
+SO-00008,Open Customer Inquiry,Low,Customer Care,Best Buy,Open,Pending customer update
+SO-00010,Aged Order,High,Order Management,Lowe's,Open,Monthly maintenance required
+SO-00010,Missing RA,High,Returns Desk,Lowe's,Open,Customer follow-up needed
+SO-00010,Return Quantity Mismatch,Medium,Warehouse Support,Lowe's,Open,Research receiving variance
+SO-00011,Return Quantity Mismatch,Medium,Warehouse Support,Best Buy,Open,Research receiving variance
+SO-00012,Return Quantity Mismatch,Medium,Warehouse Support,Target,Closed,Research receiving variance
+SO-00014,Return Quantity Mismatch,Medium,Warehouse Support,Macy's,Open,Research receiving variance
+SO-00014,Open Customer Inquiry,Low,Customer Care,Macy's,Open,Pending customer update
+SO-00015,Aged Order,High,Order Management,Lowe's,Open,Monthly maintenance required
+SO-00015,Return Quantity Mismatch,Medium,Warehouse Support,Lowe's,Open,Research receiving variance
+SO-00015,Pricing Variance,Medium,Sales Ops,Lowe's,Open,Review debit or credit memo
+SO-00016,Aged Order,High,Order Management,Walmart,Open,Monthly maintenance required
+SO-00016,Pricing Variance,Medium,Sales Ops,Walmart,Open,Review debit or credit memo
+SO-00017,Pricing Variance,Medium,Sales Ops,Lowe's,Open,Review debit or credit memo
+SO-00018,Return Quantity Mismatch,Medium,Warehouse Support,Walmart,Closed,Research receiving variance
+SO-00020,Open Customer Inquiry,Low,Customer Care,Best Buy,Open,Pending customer update
+SO-00022,Aged Order,High,Order Management,Amazon,Open,Monthly maintenance required
+SO-00023,Open Customer Inquiry,Low,Customer Care,Home Depot,Open,Pending customer update
+SO-00026,Aged Order,High,Order Management,Home Depot,Open,Monthly maintenance required
+SO-00028,Return Quantity Mismatch,Medium,Warehouse Support,Walmart,Closed,Research receiving variance
+SO-00029,Aged Order,High,Order Management,Best Buy,Open,Monthly maintenance required
+SO-00031,Aged Order,High,Order Management,Home Depot,Open,Monthly maintenance required
+SO-00031,Return Quantity Mismatch,Medium,Warehouse Support,Home Depot,Open,Research receiving variance
+SO-00033,Aged Order,High,Order Management,Walmart,Open,Monthly maintenance required
+SO-00034,Aged Order,High,Order Management,Walmart,Open,Monthly maintenance required
+SO-00034,Pricing Variance,Medium,Sales Ops,Walmart,Open,Review debit or credit memo
+SO-00035,Return Quantity Mismatch,Medium,Warehouse Support,Amazon,Closed,Research receiving variance
+SO-00037,Aged Order,High,Order Management,Home Depot,Open,Monthly maintenance required
+SO-00037,Return Quantity Mismatch,Medium,Warehouse Support,Home Depot,Open,Research receiving variance
+SO-00039,Return Quantity Mismatch,Medium,Warehouse Support,Costco,Closed,Research receiving variance
+SO-00039,Pricing Variance,Medium,Sales Ops,Costco,Closed,Review debit or credit memo
+SO-00042,Aged Order,High,Order Management,Costco,Open,Monthly maintenance required
+SO-00043,Aged Order,High,Order Management,Home Depot,Open,Monthly maintenance required
+SO-00043,Open Customer Inquiry,Low,Customer Care,Home Depot,Open,Pending customer update
+SO-00044,Aged Order,High,Order Management,Amazon,Open,Monthly maintenance required
+SO-00046,Aged Order,High,Order Management,Home Depot,Open,Monthly maintenance required
+SO-00047,Missing RA,High,Returns Desk,Macy's,Closed,Customer follow-up needed
+SO-00047,Return Quantity Mismatch,Medium,Warehouse Support,Macy's,Closed,Research receiving variance
+SO-00048,Aged Order,High,Order Management,Amazon,Open,Monthly maintenance required
+SO-00048,Return Quantity Mismatch,Medium,Warehouse Support,Amazon,Open,Research receiving variance
+SO-00049,Aged Order,High,Order Management,Walmart,Open,Monthly maintenance required
+SO-00049,Pricing Variance,Medium,Sales Ops,Walmart,Open,Review debit or credit memo
+SO-00049,Open Customer Inquiry,Low,Customer Care,Walmart,Open,Pending customer update
+SO-00050,Aged Order,High,Order Management,Best Buy,Open,Monthly maintenance required
+SO-00050,Pricing Variance,Medium,Sales Ops,Best Buy,Open,Review debit or credit memo
+SO-00051,Aged Order,High,Order Management,Costco,Open,Monthly maintenance required
+SO-00051,Pricing Variance,Medium,Sales Ops,Costco,Open,Review debit or credit memo
+SO-00052,Return Quantity Mismatch,Medium,Warehouse Support,Best Buy,Closed,Research receiving variance
+SO-00054,Aged Order,High,Order Management,Macy's,Open,Monthly maintenance required
+SO-00055,Aged Order,High,Order Management,Amazon,Open,Monthly maintenance required
+SO-00055,Pricing Variance,Medium,Sales Ops,Amazon,Open,Review debit or credit memo
+SO-00056,Aged Order,High,Order Management,Lowe's,Open,Monthly maintenance required
+SO-00056,Missing RA,High,Returns Desk,Lowe's,Open,Customer follow-up needed
+SO-00056,Return Quantity Mismatch,Medium,Warehouse Support,Lowe's,Open,Research receiving variance
+SO-00057,Aged Order,High,Order Management,Walmart,Open,Monthly maintenance required
+SO-00057,Return Quantity Mismatch,Medium,Warehouse Support,Walmart,Open,Research receiving variance
+SO-00058,Aged Order,High,Order Management,Lowe's,Open,Monthly maintenance required
+SO-00059,Aged Order,High,Order Management,Walmart,Open,Monthly maintenance required
+SO-00060,Pricing Variance,Medium,Sales Ops,Home Depot,Open,Review debit or credit memo
+SO-00061,Aged Order,High,Order Management,Costco,Open,Monthly maintenance required
+SO-00062,Aged Order,High,Order Management,Home Depot,Open,Monthly maintenance required
+SO-00062,Pricing Variance,Medium,Sales Ops,Home Depot,Open,Review debit or credit memo
+SO-00062,Open Customer Inquiry,Low,Customer Care,Home Depot,Open,Pending customer update
+SO-00064,Missing RA,High,Returns Desk,Macy's,Closed,Customer follow-up needed
+SO-00064,Pricing Variance,Medium,Sales Ops,Macy's,Closed,Review debit or credit memo
+SO-00065,Return Quantity Mismatch,Medium,Warehouse Support,Best Buy,Open,Research receiving variance
+SO-00066,Aged Order,High,Order Management,Best Buy,Open,Monthly maintenance required
+SO-00067,Aged Order,High,Order Management,Walmart,Open,Monthly maintenance required
+SO-00067,Return Quantity Mismatch,Medium,Warehouse Support,Walmart,Open,Research receiving variance
+SO-00068,Pricing Variance,Medium,Sales Ops,Walmart,Closed,Review debit or credit memo
+SO-00069,Pricing Variance,Medium,Sales Ops,Target,Open,Review debit or credit memo
+SO-00070,Aged Order,High,Order Management,Macy's,Open,Monthly maintenance required
+SO-00071,Aged Order,High,Order Management,Target,Open,Monthly maintenance required
+SO-00072,Aged Order,High,Order Management,Amazon,Open,Monthly maintenance required
+SO-00072,Return Quantity Mismatch,Medium,Warehouse Support,Amazon,Open,Research receiving variance
+SO-00073,Pricing Variance,Medium,Sales Ops,Target,Closed,Review debit or credit memo
+SO-00075,Aged Order,High,Order Management,Macy's,Open,Monthly maintenance required
+SO-00076,Aged Order,High,Order Management,Lowe's,Open,Monthly maintenance required
+SO-00077,Aged Order,High,Order Management,Macy's,Open,Monthly maintenance required
+SO-00078,Aged Order,High,Order Management,Best Buy,Open,Monthly maintenance required
+SO-00079,Aged Order,High,Order Management,Target,Open,Monthly maintenance required
+SO-00079,Missing RA,High,Returns Desk,Target,Open,Customer follow-up needed
+SO-00079,Return Quantity Mismatch,Medium,Warehouse Support,Target,Open,Research receiving variance
+SO-00080,Aged Order,High,Order Management,Macy's,Open,Monthly maintenance required
+SO-00082,Open Customer Inquiry,Low,Customer Care,Walmart,Closed,Pending customer update
+SO-00083,Aged Order,High,Order Management,Home Depot,Open,Monthly maintenance required
+SO-00084,Aged Order,High,Order Management,Amazon,Open,Monthly maintenance required
+SO-00085,Aged Order,High,Order Management,Macy's,Open,Monthly maintenance required
+SO-00087,Aged Order,High,Order Management,Target,Open,Monthly maintenance required
+SO-00089,Aged Order,High,Order Management,Target,Open,Monthly maintenance required
+SO-00089,Return Quantity Mismatch,Medium,Warehouse Support,Target,Open,Research receiving variance
+SO-00089,Pricing Variance,Medium,Sales Ops,Target,Open,Review debit or credit memo
+SO-00092,Aged Order,High,Order Management,Walmart,Open,Monthly maintenance required
+SO-00093,Return Quantity Mismatch,Medium,Warehouse Support,Amazon,Closed,Research receiving variance
+SO-00093,Pricing Variance,Medium,Sales Ops,Amazon,Closed,Review debit or credit memo
+SO-00095,Aged Order,High,Order Management,Walmart,Open,Monthly maintenance required
+SO-00096,Open Customer Inquiry,Low,Customer Care,Best Buy,Closed,Pending customer update
+SO-00099,Return Quantity Mismatch,Medium,Warehouse Support,Costco,Closed,Research receiving variance
+SO-00099,Pricing Variance,Medium,Sales Ops,Costco,Closed,Review debit or credit memo
+SO-00100,Open Customer Inquiry,Low,Customer Care,Macy's,Open,Pending customer update
+SO-00101,Return Quantity Mismatch,Medium,Warehouse Support,Walmart,Open,Research receiving variance
+SO-00103,Aged Order,High,Order Management,Lowe's,Open,Monthly maintenance required
+SO-00104,Return Quantity Mismatch,Medium,Warehouse Support,Walmart,Open,Research receiving variance
+SO-00106,Pricing Variance,Medium,Sales Ops,Walmart,Open,Review debit or credit memo
+SO-00108,Return Quantity Mismatch,Medium,Warehouse Support,Costco,Closed,Research receiving variance
+SO-00109,Aged Order,High,Order Management,Best Buy,Open,Monthly maintenance required
+SO-00110,Aged Order,High,Order Management,Costco,Open,Monthly maintenance required
+SO-00110,Return Quantity Mismatch,Medium,Warehouse Support,Costco,Open,Research receiving variance
+SO-00111,Return Quantity Mismatch,Medium,Warehouse Support,Amazon,Closed,Research receiving variance
+SO-00111,Open Customer Inquiry,Low,Customer Care,Amazon,Closed,Pending customer update
+SO-00112,Aged Order,High,Order Management,Costco,Open,Monthly maintenance required
+SO-00112,Open Customer Inquiry,Low,Customer Care,Costco,Open,Pending customer update
+SO-00113,Aged Order,High,Order Management,Walmart,Open,Monthly maintenance required
+SO-00113,Pricing Variance,Medium,Sales Ops,Walmart,Open,Review debit or credit memo
+SO-00114,Return Quantity Mismatch,Medium,Warehouse Support,Home Depot,Closed,Research receiving variance
+SO-00115,Aged Order,High,Order Management,Amazon,Open,Monthly maintenance required
+SO-00117,Aged Order,High,Order Management,Costco,Open,Monthly maintenance required
+SO-00118,Aged Order,High,Order Management,Costco,Open,Monthly maintenance required
+SO-00122,Aged Order,High,Order Management,Lowe's,Open,Monthly maintenance required
+SO-00122,Pricing Variance,Medium,Sales Ops,Lowe's,Open,Review debit or credit memo
+SO-00123,Return Quantity Mismatch,Medium,Warehouse Support,Amazon,Closed,Research receiving variance
+SO-00124,Return Quantity Mismatch,Medium,Warehouse Support,Walmart,Closed,Research receiving variance
+SO-00125,Return Quantity Mismatch,Medium,Warehouse Support,Home Depot,Open,Research receiving variance
+SO-00125,Open Customer Inquiry,Low,Customer Care,Home Depot,Open,Pending customer update
+SO-00126,Pricing Variance,Medium,Sales Ops,Costco,Open,Review debit or credit memo
+SO-00127,Aged Order,High,Order Management,Home Depot,Open,Monthly maintenance required
+SO-00129,Aged Order,High,Order Management,Target,Open,Monthly maintenance required
+SO-00129,Open Customer Inquiry,Low,Customer Care,Target,Open,Pending customer update
+SO-00130,Aged Order,High,Order Management,Home Depot,Open,Monthly maintenance required
+SO-00131,Aged Order,High,Order Management,Amazon,Open,Monthly maintenance required
+SO-00132,Return Quantity Mismatch,Medium,Warehouse Support,Target,Closed,Research receiving variance
+SO-00133,Aged Order,High,Order Management,Walmart,Open,Monthly maintenance required
+SO-00134,Pricing Variance,Medium,Sales Ops,Macy's,Closed,Review debit or credit memo
+SO-00138,Aged Order,High,Order Management,Costco,Open,Monthly maintenance required
+SO-00139,Open Customer Inquiry,Low,Customer Care,Target,Open,Pending customer update
+SO-00140,Aged Order,High,Order Management,Amazon,Open,Monthly maintenance required
+SO-00143,Aged Order,High,Order Management,Amazon,Open,Monthly maintenance required
+SO-00144,Aged Order,High,Order Management,Walmart,Open,Monthly maintenance required
+SO-00144,Missing RA,High,Returns Desk,Walmart,Open,Customer follow-up needed
+SO-00144,Return Quantity Mismatch,Medium,Warehouse Support,Walmart,Open,Research receiving variance
+SO-00144,Pricing Variance,Medium,Sales Ops,Walmart,Open,Review debit or credit memo
+SO-00147,Aged Order,High,Order Management,Macy's,Open,Monthly maintenance required
+SO-00147,Return Quantity Mismatch,Medium,Warehouse Support,Macy's,Open,Research receiving variance
+SO-00148,Pricing Variance,Medium,Sales Ops,Costco,Closed,Review debit or credit memo
+SO-00148,Open Customer Inquiry,Low,Customer Care,Costco,Closed,Pending customer update
+SO-00149,Aged Order,High,Order Management,Lowe's,Open,Monthly maintenance required
+SO-00149,Open Customer Inquiry,Low,Customer Care,Lowe's,Open,Pending customer update
+SO-00150,Aged Order,High,Order Management,Amazon,Open,Monthly maintenance required
+SO-00154,Return Quantity Mismatch,Medium,Warehouse Support,Target,Closed,Research receiving variance
+SO-00155,Aged Order,High,Order Management,Best Buy,Open,Monthly maintenance required
+SO-00155,Pricing Variance,Medium,Sales Ops,Best Buy,Open,Review debit or credit memo
+SO-00156,Aged Order,High,Order Management,Costco,Open,Monthly maintenance required
+SO-00156,Return Quantity Mismatch,Medium,Warehouse Support,Costco,Open,Research receiving variance
+SO-00156,Pricing Variance,Medium,Sales Ops,Costco,Open,Review debit or credit memo
+SO-00157,Return Quantity Mismatch,Medium,Warehouse Support,Walmart,Closed,Research receiving variance
+SO-00158,Aged Order,High,Order Management,Macy's,Open,Monthly maintenance required
+SO-00158,Pricing Variance,Medium,Sales Ops,Macy's,Open,Review debit or credit memo
+SO-00159,Aged Order,High,Order Management,Lowe's,Open,Monthly maintenance required
+SO-00159,Missing RA,High,Returns Desk,Lowe's,Open,Customer follow-up needed
+SO-00159,Return Quantity Mismatch,Medium,Warehouse Support,Lowe's,Open,Research receiving variance
+SO-00159,Pricing Variance,Medium,Sales Ops,Lowe's,Open,Review debit or credit memo
+SO-00160,Aged Order,High,Order Management,Amazon,Open,Monthly maintenance required
+SO-00160,Return Quantity Mismatch,Medium,Warehouse Support,Amazon,Open,Research receiving variance
+SO-00161,Aged Order,High,Order Management,Walmart,Open,Monthly maintenance required
+SO-00162,Return Quantity Mismatch,Medium,Warehouse Support,Target,Closed,Research receiving variance
+SO-00163,Aged Order,High,Order Management,Lowe's,Open,Monthly maintenance required
+SO-00166,Aged Order,High,Order Management,Amazon,Open,Monthly maintenance required
+SO-00168,Aged Order,High,Order Management,Best Buy,Open,Monthly maintenance required
+SO-00170,Return Quantity Mismatch,Medium,Warehouse Support,Costco,Closed,Research receiving variance
+SO-00171,Aged Order,High,Order Management,Walmart,Open,Monthly maintenance required
+SO-00172,Aged Order,High,Order Management,Amazon,Open,Monthly maintenance required
+SO-00173,Aged Order,High,Order Management,Macy's,Open,Monthly maintenance required
+SO-00173,Pricing Variance,Medium,Sales Ops,Macy's,Open,Review debit or credit memo
+SO-00175,Aged Order,High,Order Management,Target,Open,Monthly maintenance required
+SO-00175,Return Quantity Mismatch,Medium,Warehouse Support,Target,Open,Research receiving variance
+SO-00175,Open Customer Inquiry,Low,Customer Care,Target,Open,Pending customer update
+SO-00176,Aged Order,High,Order Management,Best Buy,Open,Monthly maintenance required
+SO-00176,Open Customer Inquiry,Low,Customer Care,Best Buy,Open,Pending customer update
+SO-00177,Missing RA,High,Returns Desk,Best Buy,Closed,Customer follow-up needed
+SO-00177,Return Quantity Mismatch,Medium,Warehouse Support,Best Buy,Closed,Research receiving variance
+SO-00177,Pricing Variance,Medium,Sales Ops,Best Buy,Closed,Review debit or credit memo
+SO-00177,Open Customer Inquiry,Low,Customer Care,Best Buy,Closed,Pending customer update
+SO-00178,Aged Order,High,Order Management,Macy's,Open,Monthly maintenance required
+SO-00179,Return Quantity Mismatch,Medium,Warehouse Support,Macy's,Closed,Research receiving variance
+SO-00181,Aged Order,High,Order Management,Lowe's,Open,Monthly maintenance required
+SO-00181,Return Quantity Mismatch,Medium,Warehouse Support,Lowe's,Open,Research receiving variance
+SO-00184,Aged Order,High,Order Management,Macy's,Open,Monthly maintenance required
+SO-00184,Return Quantity Mismatch,Medium,Warehouse Support,Macy's,Open,Research receiving variance
+SO-00187,Aged Order,High,Order Management,Macy's,Open,Monthly maintenance required
+SO-00188,Aged Order,High,Order Management,Best Buy,Open,Monthly maintenance required
+SO-00188,Return Quantity Mismatch,Medium,Warehouse Support,Best Buy,Open,Research receiving variance
+SO-00189,Aged Order,High,Order Management,Home Depot,Open,Monthly maintenance required
+SO-00189,Return Quantity Mismatch,Medium,Warehouse Support,Home Depot,Open,Research receiving variance
+SO-00190,Return Quantity Mismatch,Medium,Warehouse Support,Home Depot,Closed,Research receiving variance
+SO-00191,Aged Order,High,Order Management,Amazon,Open,Monthly maintenance required
+SO-00191,Missing RA,High,Returns Desk,Amazon,Open,Customer follow-up needed
+SO-00191,Return Quantity Mismatch,Medium,Warehouse Support,Amazon,Open,Research receiving variance
+SO-00192,Aged Order,High,Order Management,Costco,Open,Monthly maintenance required
+SO-00192,Open Customer Inquiry,Low,Customer Care,Costco,Open,Pending customer update
+SO-00193,Aged Order,High,Order Management,Home Depot,Open,Monthly maintenance required
+SO-00194,Aged Order,High,Order Management,Best Buy,Open,Monthly maintenance required
+SO-00195,Aged Order,High,Order Management,Best Buy,Open,Monthly maintenance required
+SO-00196,Aged Order,High,Order Management,Macy's,Open,Monthly maintenance required
+SO-00197,Aged Order,High,Order Management,Target,Open,Monthly maintenance required
+SO-00197,Return Quantity Mismatch,Medium,Warehouse Support,Target,Open,Research receiving variance
+SO-00198,Open Customer Inquiry,Low,Customer Care,Macy's,Closed,Pending customer update
+SO-00200,Aged Order,High,Order Management,Costco,Open,Monthly maintenance required
+SO-00200,Missing RA,High,Returns Desk,Costco,Open,Customer follow-up needed
+SO-00200,Return Quantity Mismatch,Medium,Warehouse Support,Costco,Open,Research receiving variance
+SO-00200,Open Customer Inquiry,Low,Customer Care,Costco,Open,Pending customer update
+SO-00201,Aged Order,High,Order Management,Target,Open,Monthly maintenance required
+SO-00202,Aged Order,High,Order Management,Walmart,Open,Monthly maintenance required
+SO-00203,Open Customer Inquiry,Low,Customer Care,Amazon,Closed,Pending customer update
+SO-00204,Aged Order,High,Order Management,Amazon,Open,Monthly maintenance required
+SO-00204,Pricing Variance,Medium,Sales Ops,Amazon,Open,Review debit or credit memo
+SO-00205,Missing RA,High,Returns Desk,Target,Closed,Customer follow-up needed
+SO-00205,Return Quantity Mismatch,Medium,Warehouse Support,Target,Closed,Research receiving variance
+SO-00207,Open Customer Inquiry,Low,Customer Care,Amazon,Closed,Pending customer update
+SO-00209,Aged Order,High,Order Management,Best Buy,Open,Monthly maintenance required
+SO-00209,Pricing Variance,Medium,Sales Ops,Best Buy,Open,Review debit or credit memo
+SO-00211,Aged Order,High,Order Management,Costco,Open,Monthly maintenance required
+SO-00211,Return Quantity Mismatch,Medium,Warehouse Support,Costco,Open,Research receiving variance
+SO-00211,Pricing Variance,Medium,Sales Ops,Costco,Open,Review debit or credit memo
+SO-00213,Aged Order,High,Order Management,Costco,Open,Monthly maintenance required
+SO-00213,Return Quantity Mismatch,Medium,Warehouse Support,Costco,Open,Research receiving variance
+SO-00216,Aged Order,High,Order Management,Costco,Open,Monthly maintenance required
+SO-00217,Aged Order,High,Order Management,Lowe's,Open,Monthly maintenance required
+SO-00217,Missing RA,High,Returns Desk,Lowe's,Open,Customer follow-up needed
+SO-00218,Pricing Variance,Medium,Sales Ops,Amazon,Closed,Review debit or credit memo
+SO-00219,Aged Order,High,Order Management,Amazon,Open,Monthly maintenance required
+SO-00220,Aged Order,High,Order Management,Best Buy,Open,Monthly maintenance required
+SO-00221,Return Quantity Mismatch,Medium,Warehouse Support,Amazon,Open,Research receiving variance
+SO-00222,Aged Order,High,Order Management,Target,Open,Monthly maintenance required
+SO-00222,Open Customer Inquiry,Low,Customer Care,Target,Open,Pending customer update
+SO-00223,Aged Order,High,Order Management,Macy's,Open,Monthly maintenance required
+SO-00224,Open Customer Inquiry,Low,Customer Care,Target,Open,Pending customer update
+SO-00228,Aged Order,High,Order Management,Amazon,Open,Monthly maintenance required
+SO-00229,Aged Order,High,Order Management,Costco,Open,Monthly maintenance required
+SO-00229,Return Quantity Mismatch,Medium,Warehouse Support,Costco,Open,Research receiving variance
+SO-00229,Pricing Variance,Medium,Sales Ops,Costco,Open,Review debit or credit memo
+SO-00231,Aged Order,High,Order Management,Macy's,Open,Monthly maintenance required
+SO-00233,Aged Order,High,Order Management,Home Depot,Open,Monthly maintenance required
+SO-00234,Pricing Variance,Medium,Sales Ops,Best Buy,Open,Review debit or credit memo
+SO-00238,Aged Order,High,Order Management,Home Depot,Open,Monthly maintenance required
+SO-00239,Missing RA,High,Returns Desk,Macy's,Closed,Customer follow-up needed
+SO-00239,Return Quantity Mismatch,Medium,Warehouse Support,Macy's,Closed,Research receiving variance
+SO-00240,Aged Order,High,Order Management,Macy's,Open,Monthly maintenance required
+SO-00240,Missing RA,High,Returns Desk,Macy's,Open,Customer follow-up needed
+SO-00240,Return Quantity Mismatch,Medium,Warehouse Support,Macy's,Open,Research receiving variance
+SO-00240,Open Customer Inquiry,Low,Customer Care,Macy's,Open,Pending customer update
+SO-00242,Aged Order,High,Order Management,Costco,Open,Monthly maintenance required
+SO-00243,Pricing Variance,Medium,Sales Ops,Amazon,Closed,Review debit or credit memo
+SO-00244,Aged Order,High,Order Management,Best Buy,Open,Monthly maintenance required
+SO-00245,Return Quantity Mismatch,Medium,Warehouse Support,Walmart,Closed,Research receiving variance
+SO-00248,Aged Order,High,Order Management,Costco,Open,Monthly maintenance required
+SO-00248,Return Quantity Mismatch,Medium,Warehouse Support,Costco,Open,Research receiving variance
+SO-00249,Pricing Variance,Medium,Sales Ops,Best Buy,Closed,Review debit or credit memo
+SO-00250,Aged Order,High,Order Management,Lowe's,Open,Monthly maintenance required
+SO-00251,Pricing Variance,Medium,Sales Ops,Home Depot,Closed,Review debit or credit memo
+SO-00252,Open Customer Inquiry,Low,Customer Care,Home Depot,Closed,Pending customer update
+SO-00253,Aged Order,High,Order Management,Walmart,Open,Monthly maintenance required
+SO-00254,Aged Order,High,Order Management,Lowe's,Open,Monthly maintenance required
+SO-00255,Aged Order,High,Order Management,Lowe's,Open,Monthly maintenance required
+SO-00255,Open Customer Inquiry,Low,Customer Care,Lowe's,Open,Pending customer update
+SO-00256,Aged Order,High,Order Management,Target,Open,Monthly maintenance required
+SO-00256,Pricing Variance,Medium,Sales Ops,Target,Open,Review debit or credit memo
+SO-00258,Return Quantity Mismatch,Medium,Warehouse Support,Best Buy,Closed,Research receiving variance
+SO-00258,Pricing Variance,Medium,Sales Ops,Best Buy,Closed,Review debit or credit memo
+SO-00259,Open Customer Inquiry,Low,Customer Care,Walmart,Closed,Pending customer update
+SO-00260,Aged Order,High,Order Management,Home Depot,Open,Monthly maintenance required
+SO-00261,Open Customer Inquiry,Low,Customer Care,Target,Open,Pending customer update
+SO-00262,Aged Order,High,Order Management,Amazon,Open,Monthly maintenance required
+SO-00263,Missing RA,High,Returns Desk,Home Depot,Closed,Customer follow-up needed
+SO-00263,Return Quantity Mismatch,Medium,Warehouse Support,Home Depot,Closed,Research receiving variance
+SO-00265,Return Quantity Mismatch,Medium,Warehouse Support,Macy's,Closed,Research receiving variance
+SO-00266,Return Quantity Mismatch,Medium,Warehouse Support,Macy's,Closed,Research receiving variance
+SO-00267,Pricing Variance,Medium,Sales Ops,Lowe's,Closed,Review debit or credit memo
+SO-00268,Return Quantity Mismatch,Medium,Warehouse Support,Macy's,Open,Research receiving variance
+SO-00269,Return Quantity Mismatch,Medium,Warehouse Support,Walmart,Open,Research receiving variance
+SO-00269,Pricing Variance,Medium,Sales Ops,Walmart,Open,Review debit or credit memo
+SO-00269,Open Customer Inquiry,Low,Customer Care,Walmart,Open,Pending customer update
+SO-00270,Aged Order,High,Order Management,Macy's,Open,Monthly maintenance required
+SO-00270,Return Quantity Mismatch,Medium,Warehouse Support,Macy's,Open,Research receiving variance
+SO-00270,Pricing Variance,Medium,Sales Ops,Macy's,Open,Review debit or credit memo
+SO-00271,Aged Order,High,Order Management,Amazon,Open,Monthly maintenance required
+SO-00272,Aged Order,High,Order Management,Amazon,Open,Monthly maintenance required
+SO-00273,Return Quantity Mismatch,Medium,Warehouse Support,Target,Open,Research receiving variance
+SO-00274,Aged Order,High,Order Management,Best Buy,Open,Monthly maintenance required
+SO-00275,Aged Order,High,Order Management,Costco,Open,Monthly maintenance required
+SO-00275,Return Quantity Mismatch,Medium,Warehouse Support,Costco,Open,Research receiving variance
+SO-00275,Pricing Variance,Medium,Sales Ops,Costco,Open,Review debit or credit memo
+SO-00276,Open Customer Inquiry,Low,Customer Care,Costco,Open,Pending customer update
+SO-00277,Aged Order,High,Order Management,Lowe's,Open,Monthly maintenance required
+SO-00278,Aged Order,High,Order Management,Lowe's,Open,Monthly maintenance required
+SO-00279,Return Quantity Mismatch,Medium,Warehouse Support,Lowe's,Closed,Research receiving variance
+SO-00280,Aged Order,High,Order Management,Target,Open,Monthly maintenance required
+SO-00282,Return Quantity Mismatch,Medium,Warehouse Support,Target,Closed,Research receiving variance
+SO-00282,Pricing Variance,Medium,Sales Ops,Target,Closed,Review debit or credit memo
+SO-00283,Open Customer Inquiry,Low,Customer Care,Lowe's,Closed,Pending customer update
+SO-00284,Return Quantity Mismatch,Medium,Warehouse Support,Home Depot,Closed,Research receiving variance
+SO-00285,Pricing Variance,Medium,Sales Ops,Amazon,Open,Review debit or credit memo
+SO-00286,Return Quantity Mismatch,Medium,Warehouse Support,Home Depot,Open,Research receiving variance
+SO-00286,Pricing Variance,Medium,Sales Ops,Home Depot,Open,Review debit or credit memo
+SO-00287,Return Quantity Mismatch,Medium,Warehouse Support,Walmart,Closed,Research receiving variance
+SO-00287,Pricing Variance,Medium,Sales Ops,Walmart,Closed,Review debit or credit memo
+SO-00287,Open Customer Inquiry,Low,Customer Care,Walmart,Closed,Pending customer update
+SO-00288,Aged Order,High,Order Management,Lowe's,Open,Monthly maintenance required
+SO-00289,Aged Order,High,Order Management,Costco,Open,Monthly maintenance required
+SO-00291,Aged Order,High,Order Management,Costco,Open,Monthly maintenance required
+SO-00291,Return Quantity Mismatch,Medium,Warehouse Support,Costco,Open,Research receiving variance
+SO-00293,Missing RA,High,Returns Desk,Amazon,Open,Customer follow-up needed
+SO-00294,Aged Order,High,Order Management,Home Depot,Open,Monthly maintenance required
+SO-00294,Open Customer Inquiry,Low,Customer Care,Home Depot,Open,Pending customer update
+SO-00296,Missing RA,High,Returns Desk,Home Depot,Closed,Customer follow-up needed
+SO-00296,Return Quantity Mismatch,Medium,Warehouse Support,Home Depot,Closed,Research receiving variance
+SO-00298,Aged Order,High,Order Management,Home Depot,Open,Monthly maintenance required
+SO-00298,Pricing Variance,Medium,Sales Ops,Home Depot,Open,Review debit or credit memo
+SO-00300,Aged Order,High,Order Management,Best Buy,Open,Monthly maintenance required
+SO-00300,Open Customer Inquiry,Low,Customer Care,Best Buy,Open,Pending customer update
+SO-00301,Return Quantity Mismatch,Medium,Warehouse Support,Home Depot,Open,Research receiving variance
+SO-00303,Aged Order,High,Order Management,Amazon,Open,Monthly maintenance required
+SO-00306,Open Customer Inquiry,Low,Customer Care,Costco,Closed,Pending customer update
+SO-00307,Aged Order,High,Order Management,Home Depot,Open,Monthly maintenance required
+SO-00307,Return Quantity Mismatch,Medium,Warehouse Support,Home Depot,Open,Research receiving variance
+SO-00309,Return Quantity Mismatch,Medium,Warehouse Support,Walmart,Closed,Research receiving variance
+SO-00310,Aged Order,High,Order Management,Best Buy,Open,Monthly maintenance required
+SO-00310,Open Customer Inquiry,Low,Customer Care,Best Buy,Open,Pending customer update
+SO-00311,Aged Order,High,Order Management,Amazon,Open,Monthly maintenance required
+SO-00312,Aged Order,High,Order Management,Target,Open,Monthly maintenance required
+SO-00312,Pricing Variance,Medium,Sales Ops,Target,Open,Review debit or credit memo
+SO-00313,Return Quantity Mismatch,Medium,Warehouse Support,Target,Closed,Research receiving variance
+SO-00314,Return Quantity Mismatch,Medium,Warehouse Support,Lowe's,Open,Research receiving variance
+SO-00314,Pricing Variance,Medium,Sales Ops,Lowe's,Open,Review debit or credit memo
+SO-00316,Return Quantity Mismatch,Medium,Warehouse Support,Costco,Closed,Research receiving variance
+SO-00316,Open Customer Inquiry,Low,Customer Care,Costco,Closed,Pending customer update
+SO-00317,Aged Order,High,Order Management,Target,Open,Monthly maintenance required
+SO-00317,Open Customer Inquiry,Low,Customer Care,Target,Open,Pending customer update
+SO-00318,Aged Order,High,Order Management,Amazon,Open,Monthly maintenance required
+SO-00318,Pricing Variance,Medium,Sales Ops,Amazon,Open,Review debit or credit memo
+SO-00318,Open Customer Inquiry,Low,Customer Care,Amazon,Open,Pending customer update
+SO-00319,Aged Order,High,Order Management,Walmart,Open,Monthly maintenance required
+SO-00320,Aged Order,High,Order Management,Home Depot,Open,Monthly maintenance required
+SO-00320,Return Quantity Mismatch,Medium,Warehouse Support,Home Depot,Open,Research receiving variance
+SO-00322,Return Quantity Mismatch,Medium,Warehouse Support,Macy's,Closed,Research receiving variance
+SO-00322,Open Customer Inquiry,Low,Customer Care,Macy's,Closed,Pending customer update
+SO-00323,Pricing Variance,Medium,Sales Ops,Lowe's,Closed,Review debit or credit memo
+SO-00324,Return Quantity Mismatch,Medium,Warehouse Support,Macy's,Closed,Research receiving variance
+SO-00324,Open Customer Inquiry,Low,Customer Care,Macy's,Closed,Pending customer update
+SO-00327,Aged Order,High,Order Management,Walmart,Open,Monthly maintenance required
+SO-00327,Open Customer Inquiry,Low,Customer Care,Walmart,Open,Pending customer update
+SO-00329,Aged Order,High,Order Management,Best Buy,Open,Monthly maintenance required
+SO-00330,Return Quantity Mismatch,Medium,Warehouse Support,Macy's,Closed,Research receiving variance
+SO-00332,Aged Order,High,Order Management,Macy's,Open,Monthly maintenance required
+SO-00332,Return Quantity Mismatch,Medium,Warehouse Support,Macy's,Open,Research receiving variance
+SO-00332,Open Customer Inquiry,Low,Customer Care,Macy's,Open,Pending customer update
+SO-00333,Aged Order,High,Order Management,Costco,Open,Monthly maintenance required
+SO-00333,Pricing Variance,Medium,Sales Ops,Costco,Open,Review debit or credit memo
+SO-00334,Aged Order,High,Order Management,Lowe's,Open,Monthly maintenance required
+SO-00334,Return Quantity Mismatch,Medium,Warehouse Support,Lowe's,Open,Research receiving variance
+SO-00334,Open Customer Inquiry,Low,Customer Care,Lowe's,Open,Pending customer update
+SO-00336,Aged Order,High,Order Management,Walmart,Open,Monthly maintenance required
+SO-00337,Aged Order,High,Order Management,Amazon,Open,Monthly maintenance required
+SO-00338,Return Quantity Mismatch,Medium,Warehouse Support,Best Buy,Closed,Research receiving variance
+SO-00338,Pricing Variance,Medium,Sales Ops,Best Buy,Closed,Review debit or credit memo
+SO-00340,Aged Order,High,Order Management,Amazon,Open,Monthly maintenance required
+SO-00340,Return Quantity Mismatch,Medium,Warehouse Support,Amazon,Open,Research receiving variance
+SO-00340,Pricing Variance,Medium,Sales Ops,Amazon,Open,Review debit or credit memo
+SO-00341,Return Quantity Mismatch,Medium,Warehouse Support,Macy's,Closed,Research receiving variance
+SO-00342,Aged Order,High,Order Management,Amazon,Open,Monthly maintenance required
+SO-00344,Aged Order,High,Order Management,Costco,Open,Monthly maintenance required
+SO-00345,Open Customer Inquiry,Low,Customer Care,Target,Closed,Pending customer update
+SO-00346,Aged Order,High,Order Management,Lowe's,Open,Monthly maintenance required
+SO-00346,Return Quantity Mismatch,Medium,Warehouse Support,Lowe's,Open,Research receiving variance
+SO-00346,Open Customer Inquiry,Low,Customer Care,Lowe's,Open,Pending customer update
+SO-00347,Aged Order,High,Order Management,Lowe's,Open,Monthly maintenance required
+SO-00348,Pricing Variance,Medium,Sales Ops,Lowe's,Closed,Review debit or credit memo
+SO-00349,Aged Order,High,Order Management,Home Depot,Open,Monthly maintenance required
+SO-00350,Aged Order,High,Order Management,Target,Open,Monthly maintenance required
+SO-00350,Return Quantity Mismatch,Medium,Warehouse Support,Target,Open,Research receiving variance
+SO-00350,Pricing Variance,Medium,Sales Ops,Target,Open,Review debit or credit memo
+SO-00351,Return Quantity Mismatch,Medium,Warehouse Support,Walmart,Closed,Research receiving variance
+SO-00351,Open Customer Inquiry,Low,Customer Care,Walmart,Closed,Pending customer update
+SO-00352,Aged Order,High,Order Management,Costco,Open,Monthly maintenance required
+SO-00353,Aged Order,High,Order Management,Lowe's,Open,Monthly maintenance required
+SO-00353,Return Quantity Mismatch,Medium,Warehouse Support,Lowe's,Open,Research receiving variance
+SO-00354,Open Customer Inquiry,Low,Customer Care,Home Depot,Closed,Pending customer update
+SO-00355,Aged Order,High,Order Management,Costco,Open,Monthly maintenance required
+SO-00356,Return Quantity Mismatch,Medium,Warehouse Support,Costco,Open,Research receiving variance
+SO-00357,Missing RA,High,Returns Desk,Costco,Closed,Customer follow-up needed
+SO-00357,Pricing Variance,Medium,Sales Ops,Costco,Closed,Review debit or credit memo
+SO-00358,Aged Order,High,Order Management,Home Depot,Open,Monthly maintenance required
+SO-00358,Open Customer Inquiry,Low,Customer Care,Home Depot,Open,Pending customer update
+SO-00362,Open Customer Inquiry,Low,Customer Care,Walmart,Closed,Pending customer update
+SO-00363,Aged Order,High,Order Management,Target,Open,Monthly maintenance required
+SO-00363,Pricing Variance,Medium,Sales Ops,Target,Open,Review debit or credit memo
+SO-00364,Open Customer Inquiry,Low,Customer Care,Lowe's,Closed,Pending customer update
+SO-00365,Pricing Variance,Medium,Sales Ops,Best Buy,Closed,Review debit or credit memo
+SO-00366,Aged Order,High,Order Management,Lowe's,Open,Monthly maintenance required
+SO-00366,Return Quantity Mismatch,Medium,Warehouse Support,Lowe's,Open,Research receiving variance
+SO-00366,Pricing Variance,Medium,Sales Ops,Lowe's,Open,Review debit or credit memo
+SO-00369,Pricing Variance,Medium,Sales Ops,Lowe's,Closed,Review debit or credit memo
+SO-00369,Open Customer Inquiry,Low,Customer Care,Lowe's,Closed,Pending customer update
+SO-00370,Aged Order,High,Order Management,Costco,Open,Monthly maintenance required
+SO-00370,Return Quantity Mismatch,Medium,Warehouse Support,Costco,Open,Research receiving variance
+SO-00371,Return Quantity Mismatch,Medium,Warehouse Support,Target,Open,Research receiving variance
+SO-00372,Pricing Variance,Medium,Sales Ops,Home Depot,Open,Review debit or credit memo
+SO-00374,Pricing Variance,Medium,Sales Ops,Best Buy,Closed,Review debit or credit memo
+SO-00375,Aged Order,High,Order Management,Macy's,Open,Monthly maintenance required
+SO-00376,Aged Order,High,Order Management,Target,Open,Monthly maintenance required
+SO-00377,Return Quantity Mismatch,Medium,Warehouse Support,Costco,Closed,Research receiving variance
+SO-00378,Pricing Variance,Medium,Sales Ops,Amazon,Closed,Review debit or credit memo
+SO-00380,Aged Order,High,Order Management,Home Depot,Open,Monthly maintenance required
+SO-00381,Open Customer Inquiry,Low,Customer Care,Walmart,Closed,Pending customer update
+SO-00382,Aged Order,High,Order Management,Macy's,Open,Monthly maintenance required
+SO-00382,Pricing Variance,Medium,Sales Ops,Macy's,Open,Review debit or credit memo
+SO-00384,Aged Order,High,Order Management,Target,Open,Monthly maintenance required
+SO-00385,Aged Order,High,Order Management,Walmart,Open,Monthly maintenance required
+SO-00385,Open Customer Inquiry,Low,Customer Care,Walmart,Open,Pending customer update
+SO-00387,Aged Order,High,Order Management,Amazon,Open,Monthly maintenance required
+SO-00387,Pricing Variance,Medium,Sales Ops,Amazon,Open,Review debit or credit memo
+SO-00388,Aged Order,High,Order Management,Macy's,Open,Monthly maintenance required
+SO-00389,Return Quantity Mismatch,Medium,Warehouse Support,Macy's,Open,Research receiving variance
+SO-00389,Open Customer Inquiry,Low,Customer Care,Macy's,Open,Pending customer update
+SO-00390,Return Quantity Mismatch,Medium,Warehouse Support,Home Depot,Closed,Research receiving variance
+SO-00391,Return Quantity Mismatch,Medium,Warehouse Support,Best Buy,Closed,Research receiving variance
+SO-00391,Open Customer Inquiry,Low,Customer Care,Best Buy,Closed,Pending customer update
+SO-00393,Aged Order,High,Order Management,Costco,Open,Monthly maintenance required
+SO-00393,Pricing Variance,Medium,Sales Ops,Costco,Open,Review debit or credit memo
+SO-00395,Aged Order,High,Order Management,Amazon,Open,Monthly maintenance required
+SO-00397,Aged Order,High,Order Management,Walmart,Open,Monthly maintenance required
+SO-00399,Return Quantity Mismatch,Medium,Warehouse Support,Amazon,Open,Research receiving variance
+SO-00401,Aged Order,High,Order Management,Lowe's,Open,Monthly maintenance required
+SO-00401,Return Quantity Mismatch,Medium,Warehouse Support,Lowe's,Open,Research receiving variance
+SO-00404,Pricing Variance,Medium,Sales Ops,Best Buy,Closed,Review debit or credit memo
+SO-00406,Pricing Variance,Medium,Sales Ops,Best Buy,Closed,Review debit or credit memo
+SO-00408,Aged Order,High,Order Management,Amazon,Open,Monthly maintenance required
+SO-00408,Open Customer Inquiry,Low,Customer Care,Amazon,Open,Pending customer update
+SO-00409,Aged Order,High,Order Management,Amazon,Open,Monthly maintenance required
+SO-00409,Return Quantity Mismatch,Medium,Warehouse Support,Amazon,Open,Research receiving variance
+SO-00410,Aged Order,High,Order Management,Target,Open,Monthly maintenance required
+SO-00410,Pricing Variance,Medium,Sales Ops,Target,Open,Review debit or credit memo
+SO-00413,Return Quantity Mismatch,Medium,Warehouse Support,Lowe's,Closed,Research receiving variance
+SO-00413,Pricing Variance,Medium,Sales Ops,Lowe's,Closed,Review debit or credit memo
+SO-00413,Open Customer Inquiry,Low,Customer Care,Lowe's,Closed,Pending customer update
+SO-00414,Return Quantity Mismatch,Medium,Warehouse Support,Amazon,Closed,Research receiving variance
+SO-00414,Pricing Variance,Medium,Sales Ops,Amazon,Closed,Review debit or credit memo
+SO-00414,Open Customer Inquiry,Low,Customer Care,Amazon,Closed,Pending customer update
+SO-00416,Return Quantity Mismatch,Medium,Warehouse Support,Target,Closed,Research receiving variance
+SO-00416,Open Customer Inquiry,Low,Customer Care,Target,Closed,Pending customer update
+SO-00417,Aged Order,High,Order Management,Home Depot,Open,Monthly maintenance required
+SO-00417,Open Customer Inquiry,Low,Customer Care,Home Depot,Open,Pending customer update
+SO-00418,Aged Order,High,Order Management,Target,Open,Monthly maintenance required
+SO-00418,Return Quantity Mismatch,Medium,Warehouse Support,Target,Open,Research receiving variance
+SO-00418,Pricing Variance,Medium,Sales Ops,Target,Open,Review debit or credit memo
+SO-00419,Aged Order,High,Order Management,Lowe's,Open,Monthly maintenance required
+SO-00420,Return Quantity Mismatch,Medium,Warehouse Support,Best Buy,Closed,Research receiving variance
+SO-00420,Open Customer Inquiry,Low,Customer Care,Best Buy,Closed,Pending customer update
+SO-00422,Return Quantity Mismatch,Medium,Warehouse Support,Costco,Open,Research receiving variance
+SO-00424,Aged Order,High,Order Management,Lowe's,Open,Monthly maintenance required
+SO-00424,Pricing Variance,Medium,Sales Ops,Lowe's,Open,Review debit or credit memo
+SO-00426,Aged Order,High,Order Management,Lowe's,Open,Monthly maintenance required
+SO-00427,Aged Order,High,Order Management,Target,Open,Monthly maintenance required
+SO-00427,Pricing Variance,Medium,Sales Ops,Target,Open,Review debit or credit memo
+SO-00428,Return Quantity Mismatch,Medium,Warehouse Support,Amazon,Closed,Research receiving variance
+SO-00428,Pricing Variance,Medium,Sales Ops,Amazon,Closed,Review debit or credit memo
+SO-00429,Missing RA,High,Returns Desk,Walmart,Open,Customer follow-up needed
+SO-00429,Return Quantity Mismatch,Medium,Warehouse Support,Walmart,Open,Research receiving variance
+SO-00429,Pricing Variance,Medium,Sales Ops,Walmart,Open,Review debit or credit memo
+SO-00431,Aged Order,High,Order Management,Macy's,Open,Monthly maintenance required
+SO-00434,Pricing Variance,Medium,Sales Ops,Amazon,Closed,Review debit or credit memo
+SO-00435,Aged Order,High,Order Management,Target,Open,Monthly maintenance required
+SO-00437,Aged Order,High,Order Management,Target,Open,Monthly maintenance required
+SO-00437,Missing RA,High,Returns Desk,Target,Open,Customer follow-up needed
+SO-00437,Return Quantity Mismatch,Medium,Warehouse Support,Target,Open,Research receiving variance
+SO-00437,Pricing Variance,Medium,Sales Ops,Target,Open,Review debit or credit memo
+SO-00438,Aged Order,High,Order Management,Amazon,Open,Monthly maintenance required
+SO-00439,Aged Order,High,Order Management,Macy's,Open,Monthly maintenance required
+SO-00440,Aged Order,High,Order Management,Walmart,Open,Monthly maintenance required
+SO-00440,Return Quantity Mismatch,Medium,Warehouse Support,Walmart,Open,Research receiving variance
+SO-00442,Missing RA,High,Returns Desk,Lowe's,Closed,Customer follow-up needed
+SO-00442,Return Quantity Mismatch,Medium,Warehouse Support,Lowe's,Closed,Research receiving variance
+SO-00443,Aged Order,High,Order Management,Walmart,Open,Monthly maintenance required
+SO-00443,Return Quantity Mismatch,Medium,Warehouse Support,Walmart,Open,Research receiving variance
+SO-00444,Aged Order,High,Order Management,Amazon,Open,Monthly maintenance required
+SO-00446,Aged Order,High,Order Management,Home Depot,Open,Monthly maintenance required
+SO-00447,Aged Order,High,Order Management,Costco,Open,Monthly maintenance required
+SO-00447,Return Quantity Mismatch,Medium,Warehouse Support,Costco,Open,Research receiving variance
+SO-00447,Open Customer Inquiry,Low,Customer Care,Costco,Open,Pending customer update
+SO-00448,Aged Order,High,Order Management,Home Depot,Open,Monthly maintenance required
+SO-00448,Missing RA,High,Returns Desk,Home Depot,Open,Customer follow-up needed
+SO-00449,Aged Order,High,Order Management,Costco,Open,Monthly maintenance required
+SO-00449,Return Quantity Mismatch,Medium,Warehouse Support,Costco,Open,Research receiving variance
+SO-00450,Missing RA,High,Returns Desk,Costco,Open,Customer follow-up needed
+SO-00450,Return Quantity Mismatch,Medium,Warehouse Support,Costco,Open,Research receiving variance
+SO-00451,Aged Order,High,Order Management,Walmart,Open,Monthly maintenance required
+SO-00451,Pricing Variance,Medium,Sales Ops,Walmart,Open,Review debit or credit memo
+SO-00452,Pricing Variance,Medium,Sales Ops,Home Depot,Closed,Review debit or credit memo
+SO-00452,Open Customer Inquiry,Low,Customer Care,Home Depot,Closed,Pending customer update
+SO-00453,Return Quantity Mismatch,Medium,Warehouse Support,Best Buy,Open,Research receiving variance
+SO-00454,Return Quantity Mismatch,Medium,Warehouse Support,Best Buy,Closed,Research receiving variance
+SO-00456,Aged Order,High,Order Management,Amazon,Open,Monthly maintenance required
+SO-00456,Open Customer Inquiry,Low,Customer Care,Amazon,Open,Pending customer update
+SO-00458,Missing RA,High,Returns Desk,Best Buy,Closed,Customer follow-up needed
+SO-00458,Return Quantity Mismatch,Medium,Warehouse Support,Best Buy,Closed,Research receiving variance
+SO-00459,Open Customer Inquiry,Low,Customer Care,Walmart,Open,Pending customer update
+SO-00460,Aged Order,High,Order Management,Macy's,Open,Monthly maintenance required
+SO-00460,Return Quantity Mismatch,Medium,Warehouse Support,Macy's,Open,Research receiving variance
+SO-00460,Pricing Variance,Medium,Sales Ops,Macy's,Open,Review debit or credit memo
+SO-00463,Return Quantity Mismatch,Medium,Warehouse Support,Costco,Closed,Research receiving variance
+SO-00464,Aged Order,High,Order Management,Best Buy,Open,Monthly maintenance required
+SO-00465,Return Quantity Mismatch,Medium,Warehouse Support,Target,Closed,Research receiving variance
+SO-00465,Pricing Variance,Medium,Sales Ops,Target,Closed,Review debit or credit memo
+SO-00465,Open Customer Inquiry,Low,Customer Care,Target,Closed,Pending customer update
+SO-00467,Aged Order,High,Order Management,Walmart,Open,Monthly maintenance required
+SO-00468,Return Quantity Mismatch,Medium,Warehouse Support,Macy's,Closed,Research receiving variance
+SO-00469,Aged Order,High,Order Management,Home Depot,Open,Monthly maintenance required
+SO-00469,Open Customer Inquiry,Low,Customer Care,Home Depot,Open,Pending customer update
+SO-00470,Aged Order,High,Order Management,Macy's,Open,Monthly maintenance required
+SO-00470,Pricing Variance,Medium,Sales Ops,Macy's,Open,Review debit or credit memo
+SO-00471,Aged Order,High,Order Management,Amazon,Open,Monthly maintenance required
+SO-00475,Aged Order,High,Order Management,Target,Open,Monthly maintenance required
+SO-00475,Missing RA,High,Returns Desk,Target,Open,Customer follow-up needed
+SO-00475,Return Quantity Mismatch,Medium,Warehouse Support,Target,Open,Research receiving variance
+SO-00475,Pricing Variance,Medium,Sales Ops,Target,Open,Review debit or credit memo
+SO-00476,Open Customer Inquiry,Low,Customer Care,Walmart,Closed,Pending customer update
+SO-00477,Aged Order,High,Order Management,Macy's,Open,Monthly maintenance required
+SO-00477,Open Customer Inquiry,Low,Customer Care,Macy's,Open,Pending customer update
+SO-00479,Pricing Variance,Medium,Sales Ops,Costco,Closed,Review debit or credit memo
+SO-00480,Open Customer Inquiry,Low,Customer Care,Home Depot,Closed,Pending customer update
+SO-00482,Return Quantity Mismatch,Medium,Warehouse Support,Costco,Open,Research receiving variance
+SO-00482,Pricing Variance,Medium,Sales Ops,Costco,Open,Review debit or credit memo
+SO-00483,Aged Order,High,Order Management,Walmart,Open,Monthly maintenance required
+SO-00485,Missing RA,High,Returns Desk,Macy's,Closed,Customer follow-up needed
+SO-00485,Return Quantity Mismatch,Medium,Warehouse Support,Macy's,Closed,Research receiving variance
+SO-00486,Aged Order,High,Order Management,Lowe's,Open,Monthly maintenance required
+SO-00486,Pricing Variance,Medium,Sales Ops,Lowe's,Open,Review debit or credit memo
+SO-00488,Aged Order,High,Order Management,Amazon,Open,Monthly maintenance required
+SO-00488,Return Quantity Mismatch,Medium,Warehouse Support,Amazon,Open,Research receiving variance
+SO-00489,Pricing Variance,Medium,Sales Ops,Costco,Closed,Review debit or credit memo
+SO-00490,Aged Order,High,Order Management,Costco,Open,Monthly maintenance required
+SO-00490,Return Quantity Mismatch,Medium,Warehouse Support,Costco,Open,Research receiving variance
+SO-00490,Open Customer Inquiry,Low,Customer Care,Costco,Open,Pending customer update
+SO-00491,Aged Order,High,Order Management,Target,Open,Monthly maintenance required
+SO-00492,Aged Order,High,Order Management,Home Depot,Open,Monthly maintenance required
+SO-00493,Pricing Variance,Medium,Sales Ops,Costco,Open,Review debit or credit memo
+SO-00494,Aged Order,High,Order Management,Target,Open,Monthly maintenance required
+SO-00494,Return Quantity Mismatch,Medium,Warehouse Support,Target,Open,Research receiving variance
+SO-00495,Pricing Variance,Medium,Sales Ops,Lowe's,Open,Review debit or credit memo
+SO-00496,Return Quantity Mismatch,Medium,Warehouse Support,Costco,Closed,Research receiving variance
+SO-00497,Aged Order,High,Order Management,Lowe's,Open,Monthly maintenance required
+SO-00497,Return Quantity Mismatch,Medium,Warehouse Support,Lowe's,Open,Research receiving variance
+SO-00499,Aged Order,High,Order Management,Walmart,Open,Monthly maintenance required
+SO-00501,Open Customer Inquiry,Low,Customer Care,Home Depot,Closed,Pending customer update
+SO-00503,Pricing Variance,Medium,Sales Ops,Walmart,Closed,Review debit or credit memo
+SO-00506,Aged Order,High,Order Management,Macy's,Open,Monthly maintenance required
+SO-00507,Aged Order,High,Order Management,Amazon,Open,Monthly maintenance required
+SO-00508,Return Quantity Mismatch,Medium,Warehouse Support,Lowe's,Open,Research receiving variance
+SO-00509,Aged Order,High,Order Management,Lowe's,Open,Monthly maintenance required
+SO-00509,Pricing Variance,Medium,Sales Ops,Lowe's,Open,Review debit or credit memo
+SO-00510,Missing RA,High,Returns Desk,Home Depot,Closed,Customer follow-up needed
+SO-00510,Return Quantity Mismatch,Medium,Warehouse Support,Home Depot,Closed,Research receiving variance
+SO-00511,Aged Order,High,Order Management,Costco,Open,Monthly maintenance required
+SO-00513,Pricing Variance,Medium,Sales Ops,Amazon,Open,Review debit or credit memo
+SO-00514,Return Quantity Mismatch,Medium,Warehouse Support,Macy's,Closed,Research receiving variance
+SO-00514,Pricing Variance,Medium,Sales Ops,Macy's,Closed,Review debit or credit memo
+SO-00515,Aged Order,High,Order Management,Macy's,Open,Monthly maintenance required
+SO-00515,Missing RA,High,Returns Desk,Macy's,Open,Customer follow-up needed
+SO-00515,Return Quantity Mismatch,Medium,Warehouse Support,Macy's,Open,Research receiving variance
+SO-00516,Pricing Variance,Medium,Sales Ops,Amazon,Closed,Review debit or credit memo
+SO-00517,Aged Order,High,Order Management,Lowe's,Open,Monthly maintenance required
+SO-00519,Return Quantity Mismatch,Medium,Warehouse Support,Costco,Closed,Research receiving variance
+SO-00520,Aged Order,High,Order Management,Lowe's,Open,Monthly maintenance required
+SO-00520,Return Quantity Mismatch,Medium,Warehouse Support,Lowe's,Open,Research receiving variance
+SO-00521,Open Customer Inquiry,Low,Customer Care,Walmart,Open,Pending customer update
+SO-00522,Pricing Variance,Medium,Sales Ops,Walmart,Closed,Review debit or credit memo
+SO-00524,Aged Order,High,Order Management,Target,Open,Monthly maintenance required
+SO-00525,Pricing Variance,Medium,Sales Ops,Best Buy,Open,Review debit or credit memo
+SO-00525,Open Customer Inquiry,Low,Customer Care,Best Buy,Open,Pending customer update
+SO-00527,Aged Order,High,Order Management,Costco,Open,Monthly maintenance required
+SO-00527,Open Customer Inquiry,Low,Customer Care,Costco,Open,Pending customer update
+SO-00528,Aged Order,High,Order Management,Walmart,Open,Monthly maintenance required
+SO-00529,Pricing Variance,Medium,Sales Ops,Best Buy,Closed,Review debit or credit memo
+SO-00530,Return Quantity Mismatch,Medium,Warehouse Support,Costco,Open,Research receiving variance
+SO-00531,Return Quantity Mismatch,Medium,Warehouse Support,Costco,Open,Research receiving variance
+SO-00532,Return Quantity Mismatch,Medium,Warehouse Support,Walmart,Open,Research receiving variance
+SO-00532,Open Customer Inquiry,Low,Customer Care,Walmart,Open,Pending customer update
+SO-00533,Aged Order,High,Order Management,Best Buy,Open,Monthly maintenance required
+SO-00534,Aged Order,High,Order Management,Lowe's,Open,Monthly maintenance required
+SO-00534,Return Quantity Mismatch,Medium,Warehouse Support,Lowe's,Open,Research receiving variance
+SO-00536,Aged Order,High,Order Management,Macy's,Open,Monthly maintenance required
+SO-00536,Missing RA,High,Returns Desk,Macy's,Open,Customer follow-up needed
+SO-00536,Return Quantity Mismatch,Medium,Warehouse Support,Macy's,Open,Research receiving variance
+SO-00536,Open Customer Inquiry,Low,Customer Care,Macy's,Open,Pending customer update
+SO-00537,Return Quantity Mismatch,Medium,Warehouse Support,Target,Closed,Research receiving variance
+SO-00537,Open Customer Inquiry,Low,Customer Care,Target,Closed,Pending customer update
+SO-00538,Pricing Variance,Medium,Sales Ops,Walmart,Closed,Review debit or credit memo
+SO-00539,Pricing Variance,Medium,Sales Ops,Macy's,Closed,Review debit or credit memo

@@ -1,0 +1,541 @@
+order_id,account_name,region,order_type,order_date,status,sku,quantity,unit_price,order_value,return_authorization,requested_return_qty,received_return_qty,price_expected,price_billed,days_open,owner,customer_inquiry_open,discrepancy_reason,memo_action
+SO-00001,Walmart,South,Return,2026-02-21,Processing,HE-1001,9,566.85,5101.65,RA-10001,9,5,566.85,566.85,36,Returns Desk,1,Damaged in transit,None
+SO-00002,Best Buy,East,Sale,2025-12-29,Pending Review,HE-1007,15,367.2,5508.0,,0,0,367.2,367.2,90,Returns Desk,0,,None
+SO-00003,Lowe's,East,Return,2026-03-01,Resolved,HE-1002,22,126.04,2772.88,,22,20,126.04,126.04,28,Customer Care,0,,None
+SO-00004,Amazon,National,Return,2026-02-19,Closed,HE-1004,40,670.39,26815.6,RA-10004,40,39,670.39,670.39,38,Order Management,0,Incorrect item received,None
+SO-00005,Walmart,South,Sale,2026-01-29,Closed,HE-1003,24,168.04,4032.96,,0,0,168.04,168.04,59,Order Management,0,,None
+SO-00006,Best Buy,East,Return,2026-02-08,Processing,HE-1004,36,207.63,7474.68,RA-10006,36,36,207.63,207.63,49,Order Management,0,Pricing discrepancy,None
+SO-00007,Lowe's,East,Return,2026-01-24,Processing,HE-1006,30,154.3,4629.0,RA-10007,30,26,154.3,168.33,64,Customer Care,0,,Credit Memo
+SO-00008,Best Buy,East,Sale,2026-03-11,Pending Review,HE-1007,6,580.27,3481.62,,0,0,580.27,580.27,18,Returns Desk,1,,None
+SO-00009,Walmart,South,Sale,2026-01-11,Resolved,HE-1005,34,229.73,7810.82,,0,0,229.73,229.73,77,Order Management,0,,None
+SO-00010,Lowe's,East,Return,2026-02-01,Open,HE-1005,1,717.9,717.9,,1,0,717.9,717.9,56,Order Management,0,,None
+SO-00011,Best Buy,East,Return,2026-03-08,Pending Review,HE-1004,34,693.35,23573.9,RA-10011,34,31,693.35,693.35,21,Sales Ops,0,,None
+SO-00012,Target,Central,Return,2026-01-15,Resolved,HE-1005,6,563.68,3382.08,RA-10012,6,2,563.68,563.68,73,Returns Desk,0,Customer refusal,None
+SO-00013,Amazon,National,Sale,2026-01-18,Closed,HE-1008,13,550.5,7156.5,,0,0,550.5,550.5,70,Sales Ops,0,,None
+SO-00014,Macy's,East,Return,2026-02-28,Open,HE-1001,2,463.87,927.74,RA-10014,2,1,463.87,463.87,29,Order Management,1,,None
+SO-00015,Lowe's,East,Return,2026-02-26,Processing,HE-1002,32,203.89,6524.48,RA-10015,32,28,203.89,226.12,31,Returns Desk,0,Customer refusal,Credit Memo
+SO-00016,Walmart,South,Sale,2026-02-11,Processing,HE-1007,30,655.37,19661.1,,0,0,655.37,665.47,46,Order Management,0,,Credit Memo
+SO-00017,Lowe's,East,Sale,2026-03-15,Processing,HE-1008,13,427.72,5560.36,,0,0,427.72,417.61,14,Order Management,0,,Debit Memo
+SO-00018,Walmart,South,Return,2026-01-18,Closed,HE-1007,6,698.83,4192.98,RA-10018,6,5,698.83,698.83,70,Returns Desk,0,Customer refusal,None
+SO-00019,Target,Central,Sale,2026-02-23,Resolved,HE-1003,30,253.25,7597.5,,0,0,253.25,253.25,34,Customer Care,0,,None
+SO-00020,Best Buy,East,Return,2026-03-21,Pending Review,HE-1003,35,97.37,3407.95,RA-10020,35,35,97.37,97.37,8,Order Management,1,Late delivery,None
+SO-00021,Walmart,South,Sale,2026-01-01,Resolved,HE-1002,26,138.32,3596.32,,0,0,138.32,138.32,87,Order Management,0,,None
+SO-00022,Amazon,National,Sale,2026-01-15,Pending Review,HE-1003,17,196.96,3348.32,,0,0,196.96,196.96,73,Customer Care,0,,None
+SO-00023,Home Depot,South,Sale,2026-03-19,Open,HE-1005,40,748.93,29957.2,,0,0,748.93,748.93,10,Returns Desk,1,,None
+SO-00024,Costco,West,Sale,2026-03-20,Resolved,HE-1001,24,253.07,6073.68,,0,0,253.07,253.07,9,Sales Ops,0,,None
+SO-00025,Home Depot,South,Sale,2026-03-15,Resolved,HE-1005,9,238.8,2149.2,,0,0,238.8,238.8,14,Returns Desk,0,,None
+SO-00026,Home Depot,South,Sale,2025-12-27,Processing,HE-1002,17,406.26,6906.42,,0,0,406.26,406.26,92,Order Management,0,,None
+SO-00027,Amazon,National,Sale,2026-03-23,Open,HE-1001,9,497.79,4480.11,,0,0,497.79,497.79,6,Customer Care,0,,None
+SO-00028,Walmart,South,Return,2025-12-30,Resolved,HE-1006,35,80.04,2801.4,RA-10028,35,31,80.04,80.04,89,Order Management,0,Pricing discrepancy,None
+SO-00029,Best Buy,East,Sale,2026-01-02,Open,HE-1004,36,669.47,24100.92,,0,0,669.47,669.47,86,Returns Desk,0,,None
+SO-00030,Costco,West,Sale,2026-03-06,Resolved,HE-1004,2,179.66,359.32,,0,0,179.66,179.66,23,Customer Care,0,,None
+SO-00031,Home Depot,South,Return,2025-12-29,Open,HE-1001,3,651.72,1955.16,RA-10031,3,0,651.72,651.72,90,Returns Desk,0,,None
+SO-00032,Best Buy,East,Sale,2026-02-21,Resolved,HE-1001,18,299.05,5382.9,,0,0,299.05,299.05,36,Sales Ops,0,,None
+SO-00033,Walmart,South,Sale,2026-02-23,Open,HE-1007,17,81.59,1387.03,,0,0,81.59,81.59,34,Sales Ops,0,,None
+SO-00034,Walmart,South,Sale,2026-01-14,Open,HE-1006,3,547.61,1642.83,,0,0,547.61,569.41,74,Returns Desk,0,,Credit Memo
+SO-00035,Amazon,National,Return,2026-01-02,Resolved,HE-1003,40,273.17,10926.8,RA-10035,40,38,273.17,273.17,86,Sales Ops,0,,None
+SO-00036,Best Buy,East,Sale,2026-02-08,Closed,HE-1005,12,482.78,5793.36,,0,0,482.78,482.78,49,Order Management,0,,None
+SO-00037,Home Depot,South,Return,2026-01-13,Pending Review,HE-1002,21,378.17,7941.57,RA-10037,21,20,378.17,378.17,75,Returns Desk,0,,None
+SO-00038,Home Depot,South,Sale,2026-01-06,Closed,HE-1004,6,623.8,3742.8,,0,0,623.8,623.8,82,Returns Desk,0,,None
+SO-00039,Costco,West,Return,2026-02-25,Resolved,HE-1003,40,645.57,25822.8,RA-10039,40,36,645.57,645.39,32,Returns Desk,0,,Debit Memo
+SO-00040,Target,Central,Sale,2026-03-15,Closed,HE-1004,15,177.24,2658.6,,0,0,177.24,177.24,14,Order Management,0,,None
+SO-00041,Walmart,South,Sale,2026-01-28,Closed,HE-1008,36,468.84,16878.24,,0,0,468.84,468.84,60,Customer Care,0,,None
+SO-00042,Costco,West,Sale,2026-01-27,Pending Review,HE-1004,16,638.7,10219.2,,0,0,638.7,638.7,61,Customer Care,0,,None
+SO-00043,Home Depot,South,Sale,2025-12-27,Processing,HE-1004,18,288.41,5191.38,,0,0,288.41,288.41,92,Returns Desk,1,,None
+SO-00044,Amazon,National,Sale,2025-12-28,Processing,HE-1007,27,338.28,9133.56,,0,0,338.28,338.28,91,Returns Desk,0,,None
+SO-00045,Amazon,National,Sale,2026-01-13,Resolved,HE-1006,2,650.43,1300.86,,0,0,650.43,650.43,75,Order Management,0,,None
+SO-00046,Home Depot,South,Sale,2026-02-03,Pending Review,HE-1007,35,610.91,21381.85,,0,0,610.91,610.91,54,Sales Ops,0,,None
+SO-00047,Macy's,East,Return,2026-02-13,Closed,HE-1002,26,558.31,14516.06,,26,25,558.31,558.31,44,Order Management,0,Customer refusal,None
+SO-00048,Amazon,National,Return,2026-01-28,Open,HE-1005,17,318.48,5414.16,RA-10048,17,15,318.48,318.48,60,Customer Care,0,,None
+SO-00049,Walmart,South,Sale,2026-01-18,Open,HE-1004,23,210.83,4849.09,,0,0,210.83,233.99,70,Order Management,1,,Credit Memo
+SO-00050,Best Buy,East,Sale,2026-01-08,Open,HE-1006,9,384.12,3457.08,,0,0,384.12,406.87,80,Sales Ops,0,,Credit Memo
+SO-00051,Costco,West,Sale,2025-12-27,Open,HE-1007,11,725.48,7980.28,,0,0,725.48,708.58,92,Customer Care,0,,Debit Memo
+SO-00052,Best Buy,East,Return,2025-12-30,Closed,HE-1006,16,125.82,2013.12,RA-10052,16,12,125.82,125.82,89,Order Management,0,,None
+SO-00053,Amazon,National,Sale,2026-03-20,Pending Review,HE-1006,22,63.79,1403.38,,0,0,63.79,63.79,9,Customer Care,0,,None
+SO-00054,Macy's,East,Sale,2026-02-01,Open,HE-1008,34,726.0,24684.0,,0,0,726.0,726.0,56,Customer Care,0,,None
+SO-00055,Amazon,National,Sale,2026-01-12,Processing,HE-1007,16,632.36,10117.76,,0,0,632.36,652.27,76,Customer Care,0,,Credit Memo
+SO-00056,Lowe's,East,Return,2026-02-15,Open,HE-1004,14,301.6,4222.4,,14,12,301.6,301.6,42,Order Management,0,,None
+SO-00057,Walmart,South,Return,2026-02-04,Pending Review,HE-1005,16,534.97,8559.52,RA-10057,16,13,534.97,534.97,53,Returns Desk,0,Pricing discrepancy,None
+SO-00058,Lowe's,East,Sale,2026-01-20,Processing,HE-1004,36,284.9,10256.4,,0,0,284.9,284.9,68,Sales Ops,0,,None
+SO-00059,Walmart,South,Sale,2026-02-16,Open,HE-1005,35,715.86,25055.1,,0,0,715.86,715.86,41,Customer Care,0,,None
+SO-00060,Home Depot,South,Sale,2026-03-04,Processing,HE-1005,24,179.71,4313.04,,0,0,179.71,184.68,25,Order Management,0,,Credit Memo
+SO-00061,Costco,West,Sale,2026-01-25,Open,HE-1001,1,453.97,453.97,,0,0,453.97,453.97,63,Returns Desk,0,,None
+SO-00062,Home Depot,South,Sale,2026-01-26,Open,HE-1005,5,333.49,1667.45,,0,0,333.49,342.56,62,Returns Desk,1,,Credit Memo
+SO-00063,Walmart,South,Sale,2026-03-13,Pending Review,HE-1008,27,476.39,12862.53,,0,0,476.39,476.39,16,Customer Care,0,,None
+SO-00064,Macy's,East,Return,2026-01-12,Resolved,HE-1003,20,450.2,9004.0,,20,20,450.2,473.48,76,Order Management,0,Incorrect item received,Credit Memo
+SO-00065,Best Buy,East,Return,2026-03-19,Open,HE-1002,27,368.1,9938.7,RA-10065,27,25,368.1,368.1,10,Customer Care,0,Pricing discrepancy,None
+SO-00066,Best Buy,East,Sale,2026-01-07,Pending Review,HE-1003,13,350.47,4556.11,,0,0,350.47,350.47,81,Sales Ops,0,,None
+SO-00067,Walmart,South,Return,2026-02-17,Pending Review,HE-1008,37,695.23,25723.51,RA-10067,37,34,695.23,695.23,40,Customer Care,0,,None
+SO-00068,Walmart,South,Sale,2026-02-01,Closed,HE-1005,39,229.01,8931.39,,0,0,229.01,252.37,56,Order Management,0,,Credit Memo
+SO-00069,Target,Central,Sale,2026-03-06,Pending Review,HE-1002,29,691.67,20058.43,,0,0,691.67,698.84,23,Customer Care,0,,Credit Memo
+SO-00070,Macy's,East,Sale,2026-02-14,Processing,HE-1007,7,651.12,4557.84,,0,0,651.12,651.12,43,Sales Ops,0,,None
+SO-00071,Target,Central,Sale,2026-02-16,Processing,HE-1008,8,729.28,5834.24,,0,0,729.28,729.28,41,Order Management,0,,None
+SO-00072,Amazon,National,Return,2026-01-21,Processing,HE-1002,32,489.66,15669.12,RA-10072,32,31,489.66,489.66,67,Customer Care,0,Pricing discrepancy,None
+SO-00073,Target,Central,Sale,2026-01-10,Closed,HE-1008,11,270.97,2980.67,,0,0,270.97,270.51,78,Order Management,0,,Debit Memo
+SO-00074,Walmart,South,Sale,2026-03-09,Pending Review,HE-1004,19,408.67,7764.73,,0,0,408.67,408.67,20,Customer Care,0,,None
+SO-00075,Macy's,East,Sale,2026-02-07,Open,HE-1007,39,408.23,15920.97,,0,0,408.23,408.23,50,Sales Ops,0,,None
+SO-00076,Lowe's,East,Sale,2026-01-23,Processing,HE-1003,1,251.57,251.57,,0,0,251.57,251.57,65,Customer Care,0,,None
+SO-00077,Macy's,East,Sale,2026-02-12,Processing,HE-1007,35,317.16,11100.6,,0,0,317.16,317.16,45,Returns Desk,0,,None
+SO-00078,Best Buy,East,Sale,2026-02-04,Open,HE-1008,31,545.13,16899.03,,0,0,545.13,545.13,53,Returns Desk,0,,None
+SO-00079,Target,Central,Return,2026-01-12,Processing,HE-1002,7,662.56,4637.92,,7,3,662.56,662.56,76,Returns Desk,0,Incorrect item received,None
+SO-00080,Macy's,East,Sale,2026-02-23,Processing,HE-1006,26,506.64,13172.64,,0,0,506.64,506.64,34,Customer Care,0,,None
+SO-00081,Macy's,East,Sale,2026-03-24,Closed,HE-1007,16,493.66,7898.56,,0,0,493.66,493.66,5,Order Management,0,,None
+SO-00082,Walmart,South,Sale,2025-12-28,Resolved,HE-1001,29,170.62,4947.98,,0,0,170.62,170.62,91,Sales Ops,1,,None
+SO-00083,Home Depot,South,Sale,2026-02-01,Open,HE-1002,34,341.38,11606.92,,0,0,341.38,341.38,56,Returns Desk,0,,None
+SO-00084,Amazon,National,Sale,2026-02-26,Pending Review,HE-1001,38,154.47,5869.86,,0,0,154.47,154.47,31,Sales Ops,0,,None
+SO-00085,Macy's,East,Sale,2026-01-01,Pending Review,HE-1005,5,362.0,1810.0,,0,0,362.0,362.0,87,Customer Care,0,,None
+SO-00086,Macy's,East,Sale,2026-03-03,Resolved,HE-1005,31,129.12,4002.72,,0,0,129.12,129.12,26,Sales Ops,0,,None
+SO-00087,Target,Central,Sale,2026-01-03,Processing,HE-1008,1,448.32,448.32,,0,0,448.32,448.32,85,Order Management,0,,None
+SO-00088,Home Depot,South,Sale,2026-02-27,Pending Review,HE-1002,23,207.21,4765.83,,0,0,207.21,207.21,30,Returns Desk,0,,None
+SO-00089,Target,Central,Return,2026-01-31,Open,HE-1005,24,563.99,13535.76,RA-10089,24,21,563.99,558.68,57,Sales Ops,0,Late delivery,Debit Memo
+SO-00090,Costco,West,Return,2026-01-26,Resolved,HE-1006,19,573.86,10903.34,RA-10090,19,19,573.86,573.86,62,Customer Care,0,Incorrect item received,None
+SO-00091,Walmart,South,Sale,2026-03-27,Processing,HE-1006,8,371.08,2968.64,,0,0,371.08,371.08,2,Customer Care,0,,None
+SO-00092,Walmart,South,Sale,2026-01-27,Open,HE-1005,36,282.96,10186.56,,0,0,282.96,282.96,61,Customer Care,0,,None
+SO-00093,Amazon,National,Return,2026-03-23,Resolved,HE-1003,20,747.17,14943.4,RA-10093,20,16,747.17,739.27,6,Customer Care,0,Over shipment,Debit Memo
+SO-00094,Amazon,National,Sale,2026-01-25,Closed,HE-1006,18,77.74,1399.32,,0,0,77.74,77.74,63,Returns Desk,0,,None
+SO-00095,Walmart,South,Sale,2026-02-09,Pending Review,HE-1002,23,97.08,2232.84,,0,0,97.08,97.08,48,Customer Care,0,,None
+SO-00096,Best Buy,East,Sale,2026-01-11,Resolved,HE-1002,4,601.82,2407.28,,0,0,601.82,601.82,77,Returns Desk,1,,None
+SO-00097,Best Buy,East,Sale,2026-02-27,Processing,HE-1003,10,603.11,6031.1,,0,0,603.11,603.11,30,Returns Desk,0,,None
+SO-00098,Home Depot,South,Sale,2026-03-14,Closed,HE-1001,2,146.6,293.2,,0,0,146.6,146.6,15,Sales Ops,0,,None
+SO-00099,Costco,West,Return,2026-03-12,Closed,HE-1005,34,133.99,4555.66,RA-10099,34,32,133.99,135.27,17,Order Management,0,Late delivery,Credit Memo
+SO-00100,Macy's,East,Sale,2026-03-25,Open,HE-1002,31,643.87,19959.97,,0,0,643.87,643.87,4,Customer Care,1,,None
+SO-00101,Walmart,South,Return,2026-03-10,Open,HE-1002,18,488.9,8800.2,RA-10101,18,16,488.9,488.9,19,Customer Care,0,,None
+SO-00102,Walmart,South,Sale,2026-01-04,Resolved,HE-1007,36,555.98,20015.28,,0,0,555.98,555.98,84,Returns Desk,0,,None
+SO-00103,Lowe's,East,Sale,2026-02-05,Processing,HE-1008,7,272.22,1905.54,,0,0,272.22,272.22,52,Returns Desk,0,,None
+SO-00104,Walmart,South,Return,2026-03-18,Open,HE-1002,7,572.49,4007.43,RA-10104,7,6,572.49,572.49,11,Sales Ops,0,,None
+SO-00105,Amazon,National,Sale,2026-01-02,Resolved,HE-1006,28,658.32,18432.96,,0,0,658.32,658.32,86,Sales Ops,0,,None
+SO-00106,Walmart,South,Sale,2026-03-01,Open,HE-1004,31,210.85,6536.35,,0,0,210.85,229.2,28,Sales Ops,0,,Credit Memo
+SO-00107,Amazon,National,Sale,2026-01-08,Closed,HE-1001,36,73.25,2637.0,,0,0,73.25,73.25,80,Sales Ops,0,,None
+SO-00108,Costco,West,Return,2026-02-17,Resolved,HE-1002,23,59.24,1362.52,RA-10108,23,19,59.24,59.24,40,Order Management,0,Over shipment,None
+SO-00109,Best Buy,East,Sale,2026-01-29,Processing,HE-1001,24,271.59,6518.16,,0,0,271.59,271.59,59,Order Management,0,,None
+SO-00110,Costco,West,Return,2026-01-08,Open,HE-1006,6,244.11,1464.66,RA-10110,6,3,244.11,244.11,80,Order Management,0,Incorrect item received,None
+SO-00111,Amazon,National,Return,2026-01-01,Closed,HE-1004,32,421.22,13479.04,RA-10111,32,31,421.22,421.22,87,Sales Ops,1,,None
+SO-00112,Costco,West,Sale,2026-02-19,Processing,HE-1006,1,400.68,400.68,,0,0,400.68,400.68,38,Returns Desk,1,,None
+SO-00113,Walmart,South,Sale,2025-12-24,Open,HE-1007,2,374.53,749.06,,0,0,374.53,369.99,95,Customer Care,0,,Debit Memo
+SO-00114,Home Depot,South,Return,2026-03-26,Resolved,HE-1002,11,611.92,6731.12,RA-10114,11,9,611.92,611.92,3,Customer Care,0,,None
+SO-00115,Amazon,National,Sale,2026-02-13,Processing,HE-1006,11,108.08,1188.88,,0,0,108.08,108.08,44,Returns Desk,0,,None
+SO-00116,Lowe's,East,Sale,2026-01-05,Closed,HE-1002,16,126.45,2023.2,,0,0,126.45,126.45,83,Returns Desk,0,,None
+SO-00117,Costco,West,Sale,2026-01-07,Pending Review,HE-1006,37,583.11,21575.07,,0,0,583.11,583.11,81,Sales Ops,0,,None
+SO-00118,Costco,West,Sale,2026-01-27,Processing,HE-1005,20,608.45,12169.0,,0,0,608.45,608.45,61,Order Management,0,,None
+SO-00119,Macy's,East,Sale,2026-03-21,Processing,HE-1008,19,108.33,2058.27,,0,0,108.33,108.33,8,Customer Care,0,,None
+SO-00120,Target,Central,Sale,2026-01-14,Closed,HE-1002,21,475.48,9985.08,,0,0,475.48,475.48,74,Customer Care,0,,None
+SO-00121,Lowe's,East,Sale,2026-03-18,Pending Review,HE-1006,12,82.2,986.4,,0,0,82.2,82.2,11,Returns Desk,0,,None
+SO-00122,Lowe's,East,Sale,2026-02-07,Processing,HE-1002,22,526.83,11590.26,,0,0,526.83,535.96,50,Sales Ops,0,,Credit Memo
+SO-00123,Amazon,National,Return,2025-12-26,Closed,HE-1003,39,661.93,25815.27,RA-10123,39,35,661.93,661.93,93,Customer Care,0,,None
+SO-00124,Walmart,South,Return,2026-02-08,Closed,HE-1006,22,620.16,13643.52,RA-10124,22,18,620.16,620.16,49,Order Management,0,,None
+SO-00125,Home Depot,South,Return,2026-03-01,Processing,HE-1006,32,188.44,6030.08,RA-10125,32,31,188.44,188.44,28,Order Management,1,,None
+SO-00126,Costco,West,Sale,2026-03-09,Open,HE-1008,40,617.29,24691.6,,0,0,617.29,618.11,20,Returns Desk,0,,Credit Memo
+SO-00127,Home Depot,South,Sale,2026-01-30,Processing,HE-1006,16,270.08,4321.28,,0,0,270.08,270.08,58,Returns Desk,0,,None
+SO-00128,Macy's,East,Sale,2026-02-20,Closed,HE-1005,33,421.58,13912.14,,0,0,421.58,421.58,37,Returns Desk,0,,None
+SO-00129,Target,Central,Sale,2026-02-09,Pending Review,HE-1003,7,549.42,3845.94,,0,0,549.42,549.42,48,Order Management,1,,None
+SO-00130,Home Depot,South,Sale,2026-01-22,Open,HE-1001,28,118.74,3324.72,,0,0,118.74,118.74,66,Sales Ops,0,,None
+SO-00131,Amazon,National,Return,2026-01-23,Processing,HE-1003,25,746.2,18655.0,RA-10131,25,25,746.2,746.2,65,Returns Desk,0,Over shipment,None
+SO-00132,Target,Central,Return,2026-01-27,Closed,HE-1007,9,582.39,5241.51,RA-10132,9,5,582.39,582.39,61,Returns Desk,0,Pricing discrepancy,None
+SO-00133,Walmart,South,Sale,2026-02-26,Processing,HE-1002,4,220.72,882.88,,0,0,220.72,220.72,31,Order Management,0,,None
+SO-00134,Macy's,East,Sale,2026-03-26,Closed,HE-1007,37,223.15,8256.55,,0,0,223.15,223.61,3,Returns Desk,0,,Credit Memo
+SO-00135,Costco,West,Sale,2026-03-18,Pending Review,HE-1007,24,102.04,2448.96,,0,0,102.04,102.04,11,Order Management,0,,None
+SO-00136,Macy's,East,Return,2026-02-07,Resolved,HE-1003,17,574.39,9764.63,RA-10136,17,17,574.39,574.39,50,Sales Ops,0,,None
+SO-00137,Target,Central,Sale,2026-02-13,Closed,HE-1003,12,632.12,7585.44,,0,0,632.12,632.12,44,Customer Care,0,,None
+SO-00138,Costco,West,Return,2026-01-29,Open,HE-1005,13,85.45,1110.85,RA-10138,13,13,85.45,85.45,59,Customer Care,0,Customer refusal,None
+SO-00139,Target,Central,Sale,2026-03-04,Processing,HE-1007,4,656.73,2626.92,,0,0,656.73,656.73,25,Sales Ops,1,,None
+SO-00140,Amazon,National,Sale,2026-02-07,Processing,HE-1002,12,399.86,4798.32,,0,0,399.86,399.86,50,Sales Ops,0,,None
+SO-00141,Amazon,National,Return,2026-01-10,Resolved,HE-1003,12,434.1,5209.2,RA-10141,12,12,434.1,434.1,78,Customer Care,0,Customer refusal,None
+SO-00142,Macy's,East,Sale,2026-03-23,Closed,HE-1002,23,482.32,11093.36,,0,0,482.32,482.32,6,Order Management,0,,None
+SO-00143,Amazon,National,Sale,2026-01-01,Open,HE-1003,2,154.23,308.46,,0,0,154.23,154.23,87,Order Management,0,,None
+SO-00144,Walmart,South,Return,2026-01-05,Processing,HE-1007,25,714.88,17872.0,,25,22,714.88,703.48,83,Sales Ops,0,Damaged in transit,Debit Memo
+SO-00145,Lowe's,East,Sale,2026-02-25,Resolved,HE-1005,2,566.29,1132.58,,0,0,566.29,566.29,32,Order Management,0,,None
+SO-00146,Home Depot,South,Sale,2026-03-01,Resolved,HE-1002,19,537.32,10209.08,,0,0,537.32,537.32,28,Returns Desk,0,,None
+SO-00147,Macy's,East,Return,2025-12-27,Processing,HE-1005,6,618.31,3709.86,RA-10147,6,4,618.31,618.31,92,Sales Ops,0,,None
+SO-00148,Costco,West,Sale,2025-12-29,Closed,HE-1001,24,408.59,9806.16,,0,0,408.59,399.23,90,Customer Care,1,,Debit Memo
+SO-00149,Lowe's,East,Sale,2026-02-09,Pending Review,HE-1008,36,145.19,5226.84,,0,0,145.19,145.19,48,Customer Care,1,,None
+SO-00150,Amazon,National,Sale,2026-01-14,Open,HE-1003,21,501.43,10530.03,,0,0,501.43,501.43,74,Sales Ops,0,,None
+SO-00151,Costco,West,Sale,2026-03-12,Processing,HE-1006,4,632.82,2531.28,,0,0,632.82,632.82,17,Returns Desk,0,,None
+SO-00152,Best Buy,East,Sale,2026-01-21,Resolved,HE-1005,6,229.17,1375.02,,0,0,229.17,229.17,67,Returns Desk,0,,None
+SO-00153,Walmart,South,Sale,2026-03-07,Pending Review,HE-1001,38,162.17,6162.46,,0,0,162.17,162.17,22,Sales Ops,0,,None
+SO-00154,Target,Central,Return,2026-01-05,Closed,HE-1008,17,507.54,8628.18,RA-10154,17,14,507.54,507.54,83,Sales Ops,0,Over shipment,None
+SO-00155,Best Buy,East,Sale,2025-12-31,Processing,HE-1006,30,105.72,3171.6,,0,0,105.72,106.62,88,Returns Desk,0,,Credit Memo
+SO-00156,Costco,West,Return,2025-12-27,Processing,HE-1003,23,732.89,16856.47,RA-10156,23,19,732.89,730.82,92,Returns Desk,0,Damaged in transit,Debit Memo
+SO-00157,Walmart,South,Return,2026-02-07,Resolved,HE-1003,27,227.55,6143.85,RA-10157,27,26,227.55,227.55,50,Returns Desk,0,,None
+SO-00158,Macy's,East,Sale,2026-01-28,Pending Review,HE-1004,20,400.67,8013.4,,0,0,400.67,399.58,60,Returns Desk,0,,Debit Memo
+SO-00159,Lowe's,East,Return,2026-02-20,Pending Review,HE-1001,31,253.6,7861.6,,31,30,253.6,240.22,37,Sales Ops,0,,Debit Memo
+SO-00160,Amazon,National,Return,2026-01-16,Open,HE-1003,36,255.58,9200.88,RA-10160,36,33,255.58,255.58,72,Order Management,0,Late delivery,None
+SO-00161,Walmart,South,Sale,2026-02-13,Pending Review,HE-1001,24,579.7,13912.8,,0,0,579.7,579.7,44,Order Management,0,,None
+SO-00162,Target,Central,Return,2026-02-14,Closed,HE-1005,34,372.61,12668.74,RA-10162,34,30,372.61,372.61,43,Customer Care,0,,None
+SO-00163,Lowe's,East,Sale,2026-01-22,Pending Review,HE-1007,37,263.35,9743.95,,0,0,263.35,263.35,66,Order Management,0,,None
+SO-00164,Home Depot,South,Sale,2025-12-26,Resolved,HE-1001,2,469.85,939.7,,0,0,469.85,469.85,93,Returns Desk,0,,None
+SO-00165,Macy's,East,Return,2026-01-07,Closed,HE-1006,25,157.7,3942.5,RA-10165,25,25,157.7,157.7,81,Customer Care,0,,None
+SO-00166,Amazon,National,Return,2025-12-30,Open,HE-1007,33,593.61,19589.13,RA-10166,33,33,593.61,593.61,89,Customer Care,0,Late delivery,None
+SO-00167,Lowe's,East,Sale,2026-01-29,Resolved,HE-1008,22,434.66,9562.52,,0,0,434.66,434.66,59,Sales Ops,0,,None
+SO-00168,Best Buy,East,Sale,2026-02-21,Pending Review,HE-1008,15,709.33,10639.95,,0,0,709.33,709.33,36,Returns Desk,0,,None
+SO-00169,Lowe's,East,Sale,2026-01-16,Resolved,HE-1006,18,255.01,4590.18,,0,0,255.01,255.01,72,Customer Care,0,,None
+SO-00170,Costco,West,Return,2026-02-20,Resolved,HE-1003,6,295.72,1774.32,RA-10170,6,4,295.72,295.72,37,Sales Ops,0,Late delivery,None
+SO-00171,Walmart,South,Sale,2026-01-12,Processing,HE-1002,4,520.53,2082.12,,0,0,520.53,520.53,76,Order Management,0,,None
+SO-00172,Amazon,National,Sale,2026-01-27,Open,HE-1008,9,58.6,527.4,,0,0,58.6,58.6,61,Customer Care,0,,None
+SO-00173,Macy's,East,Sale,2026-02-20,Processing,HE-1003,4,686.02,2744.08,,0,0,686.02,692.71,37,Order Management,0,,Credit Memo
+SO-00174,Amazon,National,Sale,2026-03-06,Resolved,HE-1001,3,748.03,2244.09,,0,0,748.03,748.03,23,Sales Ops,0,,None
+SO-00175,Target,Central,Return,2026-01-10,Open,HE-1005,22,252.77,5560.94,RA-10175,22,18,252.77,252.77,78,Customer Care,1,,None
+SO-00176,Best Buy,East,Sale,2026-02-14,Open,HE-1005,30,505.56,15166.8,,0,0,505.56,505.56,43,Sales Ops,1,,None
+SO-00177,Best Buy,East,Return,2026-01-06,Resolved,HE-1004,28,413.12,11567.36,,28,27,413.12,423.9,82,Customer Care,1,Incorrect item received,Credit Memo
+SO-00178,Macy's,East,Sale,2026-02-14,Processing,HE-1002,37,62.95,2329.15,,0,0,62.95,62.95,43,Order Management,0,,None
+SO-00179,Macy's,East,Return,2026-02-05,Closed,HE-1006,20,534.75,10695.0,RA-10179,20,18,534.75,534.75,52,Customer Care,0,Incorrect item received,None
+SO-00180,Amazon,National,Sale,2026-01-27,Closed,HE-1008,14,584.49,8182.86,,0,0,584.49,584.49,61,Order Management,0,,None
+SO-00181,Lowe's,East,Return,2026-01-15,Open,HE-1008,36,682.51,24570.36,RA-10181,36,32,682.51,682.51,73,Returns Desk,0,Late delivery,None
+SO-00182,Walmart,South,Sale,2026-01-30,Closed,HE-1005,30,146.7,4401.0,,0,0,146.7,146.7,58,Customer Care,0,,None
+SO-00183,Target,Central,Sale,2026-03-28,Closed,HE-1002,38,105.76,4018.88,,0,0,105.76,105.76,1,Order Management,0,,None
+SO-00184,Macy's,East,Return,2026-02-04,Open,HE-1007,9,587.25,5285.25,RA-10184,9,6,587.25,587.25,53,Customer Care,0,,None
+SO-00185,Walmart,South,Sale,2026-01-03,Resolved,HE-1003,9,509.21,4582.89,,0,0,509.21,509.21,85,Customer Care,0,,None
+SO-00186,Best Buy,East,Sale,2026-03-26,Resolved,HE-1004,30,523.08,15692.4,,0,0,523.08,523.08,3,Returns Desk,0,,None
+SO-00187,Macy's,East,Sale,2026-02-21,Open,HE-1004,8,77.39,619.12,,0,0,77.39,77.39,36,Order Management,0,,None
+SO-00188,Best Buy,East,Return,2026-01-11,Open,HE-1003,39,522.06,20360.34,RA-10188,39,38,522.06,522.06,77,Order Management,0,Incorrect item received,None
+SO-00189,Home Depot,South,Return,2025-12-25,Pending Review,HE-1007,37,470.55,17410.35,RA-10189,37,35,470.55,470.55,94,Returns Desk,0,,None
+SO-00190,Home Depot,South,Return,2026-01-16,Resolved,HE-1007,12,490.07,5880.84,RA-10190,12,9,490.07,490.07,72,Sales Ops,0,Over shipment,None
+SO-00191,Amazon,National,Return,2026-02-08,Open,HE-1007,35,384.1,13443.5,,35,33,384.1,384.1,49,Customer Care,0,Customer refusal,None
+SO-00192,Costco,West,Sale,2026-02-24,Open,HE-1001,6,695.95,4175.7,,0,0,695.95,695.95,33,Returns Desk,1,,None
+SO-00193,Home Depot,South,Sale,2026-01-10,Pending Review,HE-1008,5,185.77,928.85,,0,0,185.77,185.77,78,Returns Desk,0,,None
+SO-00194,Best Buy,East,Sale,2026-02-14,Processing,HE-1004,1,202.21,202.21,,0,0,202.21,202.21,43,Customer Care,0,,None
+SO-00195,Best Buy,East,Sale,2026-02-26,Pending Review,HE-1006,19,319.56,6071.64,,0,0,319.56,319.56,31,Sales Ops,0,,None
+SO-00196,Macy's,East,Sale,2025-12-26,Pending Review,HE-1003,21,690.46,14499.66,,0,0,690.46,690.46,93,Returns Desk,0,,None
+SO-00197,Target,Central,Return,2026-01-13,Pending Review,HE-1005,27,260.16,7024.32,RA-10197,27,26,260.16,260.16,75,Sales Ops,0,,None
+SO-00198,Macy's,East,Sale,2026-01-05,Closed,HE-1003,30,171.92,5157.6,,0,0,171.92,171.92,83,Customer Care,1,,None
+SO-00199,Target,Central,Sale,2026-03-19,Resolved,HE-1002,4,586.22,2344.88,,0,0,586.22,586.22,10,Returns Desk,0,,None
+SO-00200,Costco,West,Return,2026-01-23,Pending Review,HE-1001,4,484.4,1937.6,,4,0,484.4,484.4,65,Customer Care,1,,None
+SO-00201,Target,Central,Sale,2026-02-21,Pending Review,HE-1002,19,66.91,1271.29,,0,0,66.91,66.91,36,Returns Desk,0,,None
+SO-00202,Walmart,South,Sale,2026-02-26,Open,HE-1006,34,230.43,7834.62,,0,0,230.43,230.43,31,Order Management,0,,None
+SO-00203,Amazon,National,Sale,2026-02-25,Resolved,HE-1002,15,263.48,3952.2,,0,0,263.48,263.48,32,Order Management,1,,None
+SO-00204,Amazon,National,Sale,2026-01-17,Pending Review,HE-1002,1,543.48,543.48,,0,0,543.48,561.83,71,Sales Ops,0,,Credit Memo
+SO-00205,Target,Central,Return,2025-12-30,Resolved,HE-1001,31,243.41,7545.71,,31,29,243.41,243.41,89,Sales Ops,0,Damaged in transit,None
+SO-00206,Best Buy,East,Sale,2025-12-27,Closed,HE-1006,5,263.0,1315.0,,0,0,263.0,263.0,92,Customer Care,0,,None
+SO-00207,Amazon,National,Sale,2026-03-11,Closed,HE-1004,6,403.05,2418.3,,0,0,403.05,403.05,18,Customer Care,1,,None
+SO-00208,Walmart,South,Sale,2026-01-09,Resolved,HE-1008,26,728.4,18938.4,,0,0,728.4,728.4,79,Customer Care,0,,None
+SO-00209,Best Buy,East,Sale,2026-02-08,Processing,HE-1002,38,514.17,19538.46,,0,0,514.17,522.77,49,Order Management,0,,Credit Memo
+SO-00210,Home Depot,South,Return,2025-12-27,Closed,HE-1002,10,569.06,5690.6,RA-10210,10,10,569.06,569.06,92,Sales Ops,0,,None
+SO-00211,Costco,West,Return,2026-02-01,Processing,HE-1001,36,411.15,14801.4,RA-10211,36,32,411.15,397.0,56,Customer Care,0,,Debit Memo
+SO-00212,Home Depot,South,Sale,2026-03-18,Closed,HE-1007,36,684.12,24628.32,,0,0,684.12,684.12,11,Returns Desk,0,,None
+SO-00213,Costco,West,Return,2026-02-18,Processing,HE-1008,10,98.97,989.7,RA-10213,10,7,98.97,98.97,39,Returns Desk,0,,None
+SO-00214,Best Buy,East,Sale,2026-03-11,Processing,HE-1008,26,285.89,7433.14,,0,0,285.89,285.89,18,Sales Ops,0,,None
+SO-00215,Lowe's,East,Sale,2026-01-04,Resolved,HE-1006,9,263.8,2374.2,,0,0,263.8,263.8,84,Customer Care,0,,None
+SO-00216,Costco,West,Sale,2026-02-16,Processing,HE-1007,32,727.6,23283.2,,0,0,727.6,727.6,41,Sales Ops,0,,None
+SO-00217,Lowe's,East,Return,2026-01-15,Open,HE-1002,35,180.05,6301.75,,35,35,180.05,180.05,73,Sales Ops,0,Over shipment,None
+SO-00218,Amazon,National,Sale,2026-03-11,Closed,HE-1008,16,230.61,3689.76,,0,0,230.61,230.8,18,Customer Care,0,,Credit Memo
+SO-00219,Amazon,National,Sale,2025-12-30,Processing,HE-1002,3,604.55,1813.65,,0,0,604.55,604.55,89,Order Management,0,,None
+SO-00220,Best Buy,East,Sale,2026-02-11,Open,HE-1006,40,85.79,3431.6,,0,0,85.79,85.79,46,Customer Care,0,,None
+SO-00221,Amazon,National,Return,2026-03-16,Processing,HE-1006,33,574.06,18943.98,RA-10221,33,29,574.06,574.06,13,Returns Desk,0,Customer refusal,None
+SO-00222,Target,Central,Sale,2026-02-19,Processing,HE-1006,6,135.67,814.02,,0,0,135.67,135.67,38,Sales Ops,1,,None
+SO-00223,Macy's,East,Sale,2026-01-21,Pending Review,HE-1005,31,122.85,3808.35,,0,0,122.85,122.85,67,Order Management,0,,None
+SO-00224,Target,Central,Sale,2026-03-14,Open,HE-1003,22,505.34,11117.48,,0,0,505.34,505.34,15,Returns Desk,1,,None
+SO-00225,Costco,West,Sale,2026-02-02,Resolved,HE-1007,15,609.44,9141.6,,0,0,609.44,609.44,55,Customer Care,0,,None
+SO-00226,Target,Central,Sale,2026-03-03,Processing,HE-1002,28,325.24,9106.72,,0,0,325.24,325.24,26,Order Management,0,,None
+SO-00227,Costco,West,Sale,2026-03-03,Pending Review,HE-1007,17,521.14,8859.38,,0,0,521.14,521.14,26,Sales Ops,0,,None
+SO-00228,Amazon,National,Sale,2026-02-12,Processing,HE-1002,30,484.07,14522.1,,0,0,484.07,484.07,45,Sales Ops,0,,None
+SO-00229,Costco,West,Return,2026-02-26,Processing,HE-1003,12,314.45,3773.4,RA-10229,12,8,314.45,313.15,31,Returns Desk,0,Incorrect item received,Debit Memo
+SO-00230,Macy's,East,Return,2026-03-05,Processing,HE-1007,29,485.49,14079.21,RA-10230,29,29,485.49,485.49,24,Customer Care,0,Customer refusal,None
+SO-00231,Macy's,East,Sale,2026-01-31,Pending Review,HE-1005,6,447.95,2687.7,,0,0,447.95,447.95,57,Order Management,0,,None
+SO-00232,Best Buy,East,Sale,2026-03-07,Closed,HE-1002,37,571.05,21128.85,,0,0,571.05,571.05,22,Order Management,0,,None
+SO-00233,Home Depot,South,Sale,2026-02-10,Pending Review,HE-1002,3,583.2,1749.6,,0,0,583.2,583.2,47,Customer Care,0,,None
+SO-00234,Best Buy,East,Return,2026-03-24,Processing,HE-1007,23,654.23,15047.29,RA-10234,23,23,654.23,673.44,5,Sales Ops,0,Over shipment,Credit Memo
+SO-00235,Costco,West,Sale,2026-03-02,Closed,HE-1006,4,451.2,1804.8,,0,0,451.2,451.2,27,Returns Desk,0,,None
+SO-00236,Home Depot,South,Return,2026-02-22,Resolved,HE-1005,33,739.91,24417.03,RA-10236,33,33,739.91,739.91,35,Order Management,0,,None
+SO-00237,Costco,West,Sale,2026-03-12,Processing,HE-1003,21,630.79,13246.59,,0,0,630.79,630.79,17,Customer Care,0,,None
+SO-00238,Home Depot,South,Sale,2026-02-08,Pending Review,HE-1008,6,334.98,2009.88,,0,0,334.98,334.98,49,Sales Ops,0,,None
+SO-00239,Macy's,East,Return,2026-03-28,Resolved,HE-1004,6,563.0,3378.0,,6,4,563.0,563.0,1,Customer Care,0,,None
+SO-00240,Macy's,East,Return,2026-02-20,Processing,HE-1001,37,145.76,5393.12,,37,35,145.76,145.76,37,Customer Care,1,,None
+SO-00241,Walmart,South,Sale,2026-03-08,Processing,HE-1005,1,744.33,744.33,,0,0,744.33,744.33,21,Returns Desk,0,,None
+SO-00242,Costco,West,Sale,2026-02-21,Open,HE-1001,24,229.02,5496.48,,0,0,229.02,229.02,36,Returns Desk,0,,None
+SO-00243,Amazon,National,Sale,2025-12-26,Closed,HE-1003,15,353.32,5299.8,,0,0,353.32,339.41,93,Order Management,0,,Debit Memo
+SO-00244,Best Buy,East,Sale,2026-01-31,Open,HE-1008,22,622.89,13703.58,,0,0,622.89,622.89,57,Returns Desk,0,,None
+SO-00245,Walmart,South,Return,2026-03-17,Closed,HE-1003,7,126.73,887.11,RA-10245,7,5,126.73,126.73,12,Returns Desk,0,,None
+SO-00246,Walmart,South,Sale,2026-03-27,Closed,HE-1007,11,360.87,3969.57,,0,0,360.87,360.87,2,Returns Desk,0,,None
+SO-00247,Macy's,East,Sale,2026-03-17,Resolved,HE-1006,9,577.95,5201.55,,0,0,577.95,577.95,12,Customer Care,0,,None
+SO-00248,Costco,West,Return,2026-01-05,Open,HE-1004,36,472.69,17016.84,RA-10248,36,34,472.69,472.69,83,Sales Ops,0,,None
+SO-00249,Best Buy,East,Sale,2026-02-19,Closed,HE-1006,16,398.95,6383.2,,0,0,398.95,402.43,38,Order Management,0,,Credit Memo
+SO-00250,Lowe's,East,Return,2026-01-15,Processing,HE-1007,35,529.64,18537.4,RA-10250,35,35,529.64,529.64,73,Order Management,0,Pricing discrepancy,None
+SO-00251,Home Depot,South,Sale,2026-01-23,Closed,HE-1002,28,542.76,15197.28,,0,0,542.76,547.83,65,Sales Ops,0,,Credit Memo
+SO-00252,Home Depot,South,Return,2026-03-02,Resolved,HE-1007,10,427.79,4277.9,RA-10252,10,10,427.79,427.79,27,Order Management,1,Incorrect item received,None
+SO-00253,Walmart,South,Sale,2026-01-10,Open,HE-1008,12,138.01,1656.12,,0,0,138.01,138.01,78,Returns Desk,0,,None
+SO-00254,Lowe's,East,Sale,2025-12-26,Processing,HE-1001,24,143.22,3437.28,,0,0,143.22,143.22,93,Order Management,0,,None
+SO-00255,Lowe's,East,Sale,2026-02-22,Pending Review,HE-1006,17,550.06,9351.02,,0,0,550.06,550.06,35,Customer Care,1,,None
+SO-00256,Target,Central,Sale,2026-01-15,Open,HE-1001,11,232.31,2555.41,,0,0,232.31,238.99,73,Returns Desk,0,,Credit Memo
+SO-00257,Target,Central,Sale,2026-03-27,Processing,HE-1007,31,307.96,9546.76,,0,0,307.96,307.96,2,Order Management,0,,None
+SO-00258,Best Buy,East,Return,2026-02-03,Resolved,HE-1007,21,243.52,5113.92,RA-10258,21,17,243.52,241.55,54,Order Management,0,Incorrect item received,Debit Memo
+SO-00259,Walmart,South,Sale,2026-02-20,Closed,HE-1005,20,282.47,5649.4,,0,0,282.47,282.47,37,Returns Desk,1,,None
+SO-00260,Home Depot,South,Sale,2026-02-25,Pending Review,HE-1003,38,730.44,27756.72,,0,0,730.44,730.44,32,Returns Desk,0,,None
+SO-00261,Target,Central,Sale,2026-03-25,Processing,HE-1001,23,496.98,11430.54,,0,0,496.98,496.98,4,Sales Ops,1,,None
+SO-00262,Amazon,National,Sale,2025-12-25,Processing,HE-1003,14,423.22,5925.08,,0,0,423.22,423.22,94,Order Management,0,,None
+SO-00263,Home Depot,South,Return,2026-02-27,Resolved,HE-1002,34,342.07,11630.38,,34,31,342.07,342.07,30,Customer Care,0,Damaged in transit,None
+SO-00264,Target,Central,Sale,2026-03-12,Processing,HE-1006,17,646.39,10988.63,,0,0,646.39,646.39,17,Sales Ops,0,,None
+SO-00265,Macy's,East,Return,2026-03-19,Resolved,HE-1004,9,597.06,5373.54,RA-10265,9,8,597.06,597.06,10,Sales Ops,0,Pricing discrepancy,None
+SO-00266,Macy's,East,Return,2026-02-23,Closed,HE-1004,6,164.54,987.24,RA-10266,6,2,164.54,164.54,34,Order Management,0,,None
+SO-00267,Lowe's,East,Sale,2026-03-22,Closed,HE-1002,17,624.96,10624.32,,0,0,624.96,647.9,7,Returns Desk,0,,Credit Memo
+SO-00268,Macy's,East,Return,2026-03-11,Open,HE-1005,4,632.11,2528.44,RA-10268,4,3,632.11,632.11,18,Order Management,0,Over shipment,None
+SO-00269,Walmart,South,Return,2026-03-20,Open,HE-1007,29,617.46,17906.34,RA-10269,29,27,617.46,635.89,9,Customer Care,1,,Credit Memo
+SO-00270,Macy's,East,Return,2025-12-31,Processing,HE-1008,23,204.23,4697.29,RA-10270,23,22,204.23,198.26,88,Sales Ops,0,,Debit Memo
+SO-00271,Amazon,National,Sale,2026-01-26,Open,HE-1001,18,321.2,5781.6,,0,0,321.2,321.2,62,Returns Desk,0,,None
+SO-00272,Amazon,National,Sale,2026-02-11,Pending Review,HE-1003,32,294.1,9411.2,,0,0,294.1,294.1,46,Sales Ops,0,,None
+SO-00273,Target,Central,Return,2026-02-28,Open,HE-1002,18,95.72,1722.96,RA-10273,18,14,95.72,95.72,29,Returns Desk,0,,None
+SO-00274,Best Buy,East,Sale,2026-02-22,Pending Review,HE-1006,4,586.01,2344.04,,0,0,586.01,586.01,35,Customer Care,0,,None
+SO-00275,Costco,West,Return,2026-01-12,Processing,HE-1005,23,690.22,15875.06,RA-10275,23,19,690.22,702.34,76,Customer Care,0,Incorrect item received,Credit Memo
+SO-00276,Costco,West,Sale,2026-03-17,Open,HE-1003,39,207.07,8075.73,,0,0,207.07,207.07,12,Returns Desk,1,,None
+SO-00277,Lowe's,East,Sale,2026-02-15,Open,HE-1002,10,462.69,4626.9,,0,0,462.69,462.69,42,Sales Ops,0,,None
+SO-00278,Lowe's,East,Sale,2026-01-03,Processing,HE-1008,7,288.91,2022.37,,0,0,288.91,288.91,85,Customer Care,0,,None
+SO-00279,Lowe's,East,Return,2026-01-16,Closed,HE-1003,40,601.96,24078.4,RA-10279,40,36,601.96,601.96,72,Returns Desk,0,Over shipment,None
+SO-00280,Target,Central,Sale,2026-01-14,Processing,HE-1002,37,77.51,2867.87,,0,0,77.51,77.51,74,Returns Desk,0,,None
+SO-00281,Macy's,East,Return,2026-03-19,Processing,HE-1008,21,171.68,3605.28,RA-10281,21,21,171.68,171.68,10,Sales Ops,0,,None
+SO-00282,Target,Central,Return,2026-02-25,Closed,HE-1007,23,233.38,5367.74,RA-10282,23,20,233.38,215.44,32,Customer Care,0,Incorrect item received,Debit Memo
+SO-00283,Lowe's,East,Sale,2026-03-16,Closed,HE-1001,37,507.42,18774.54,,0,0,507.42,507.42,13,Order Management,1,,None
+SO-00284,Home Depot,South,Return,2026-02-23,Resolved,HE-1001,5,292.56,1462.8,RA-10284,5,4,292.56,292.56,34,Customer Care,0,Damaged in transit,None
+SO-00285,Amazon,National,Sale,2026-03-07,Pending Review,HE-1005,28,164.19,4597.32,,0,0,164.19,155.03,22,Sales Ops,0,,Debit Memo
+SO-00286,Home Depot,South,Return,2026-03-22,Processing,HE-1004,36,638.7,22993.2,RA-10286,36,33,638.7,636.22,7,Customer Care,0,,Debit Memo
+SO-00287,Walmart,South,Return,2026-03-07,Closed,HE-1003,6,384.13,2304.78,RA-10287,6,3,384.13,399.88,22,Customer Care,1,,Credit Memo
+SO-00288,Lowe's,East,Sale,2026-02-09,Open,HE-1001,3,237.99,713.97,,0,0,237.99,237.99,48,Sales Ops,0,,None
+SO-00289,Costco,West,Sale,2026-01-02,Open,HE-1001,23,616.69,14183.87,,0,0,616.69,616.69,86,Returns Desk,0,,None
+SO-00290,Amazon,National,Sale,2026-02-03,Resolved,HE-1001,31,453.04,14044.24,,0,0,453.04,453.04,54,Customer Care,0,,None
+SO-00291,Costco,West,Return,2026-01-30,Open,HE-1005,11,730.65,8037.15,RA-10291,11,10,730.65,730.65,58,Returns Desk,0,Over shipment,None
+SO-00292,Lowe's,East,Sale,2026-03-20,Open,HE-1001,36,331.16,11921.76,,0,0,331.16,331.16,9,Customer Care,0,,None
+SO-00293,Amazon,National,Return,2026-03-09,Open,HE-1007,38,459.96,17478.48,,38,38,459.96,459.96,20,Sales Ops,0,Damaged in transit,None
+SO-00294,Home Depot,South,Sale,2026-01-25,Pending Review,HE-1001,31,81.04,2512.24,,0,0,81.04,81.04,63,Customer Care,1,,None
+SO-00295,Amazon,National,Sale,2026-02-14,Closed,HE-1006,4,573.3,2293.2,,0,0,573.3,573.3,43,Order Management,0,,None
+SO-00296,Home Depot,South,Return,2026-01-25,Closed,HE-1002,7,730.89,5116.23,,7,5,730.89,730.89,63,Customer Care,0,Pricing discrepancy,None
+SO-00297,Best Buy,East,Sale,2026-02-04,Closed,HE-1002,34,657.7,22361.8,,0,0,657.7,657.7,53,Returns Desk,0,,None
+SO-00298,Home Depot,South,Sale,2026-02-05,Open,HE-1004,34,666.14,22648.76,,0,0,666.14,656.43,52,Order Management,0,,Debit Memo
+SO-00299,Target,Central,Sale,2026-02-10,Closed,HE-1001,18,311.0,5598.0,,0,0,311.0,311.0,47,Order Management,0,,None
+SO-00300,Best Buy,East,Sale,2026-01-11,Processing,HE-1002,31,462.88,14349.28,,0,0,462.88,462.88,77,Sales Ops,1,,None
+SO-00301,Home Depot,South,Return,2026-03-22,Open,HE-1001,37,596.98,22088.26,RA-10301,37,36,596.98,596.98,7,Customer Care,0,,None
+SO-00302,Target,Central,Sale,2026-03-12,Closed,HE-1005,39,611.6,23852.4,,0,0,611.6,611.6,17,Sales Ops,0,,None
+SO-00303,Amazon,National,Sale,2026-02-12,Pending Review,HE-1002,14,379.36,5311.04,,0,0,379.36,379.36,45,Customer Care,0,,None
+SO-00304,Target,Central,Sale,2026-01-03,Resolved,HE-1008,24,445.21,10685.04,,0,0,445.21,445.21,85,Order Management,0,,None
+SO-00305,Walmart,South,Sale,2026-02-21,Closed,HE-1004,18,236.5,4257.0,,0,0,236.5,236.5,36,Sales Ops,0,,None
+SO-00306,Costco,West,Sale,2026-02-26,Resolved,HE-1008,39,335.85,13098.15,,0,0,335.85,335.85,31,Order Management,1,,None
+SO-00307,Home Depot,South,Return,2026-02-03,Processing,HE-1006,3,460.2,1380.6,RA-10307,3,2,460.2,460.2,54,Customer Care,0,,None
+SO-00308,Home Depot,South,Sale,2026-01-03,Resolved,HE-1006,12,259.18,3110.16,,0,0,259.18,259.18,85,Returns Desk,0,,None
+SO-00309,Walmart,South,Return,2026-02-28,Closed,HE-1008,20,347.23,6944.6,RA-10309,20,18,347.23,347.23,29,Order Management,0,Damaged in transit,None
+SO-00310,Best Buy,East,Sale,2025-12-31,Processing,HE-1006,20,342.11,6842.2,,0,0,342.11,342.11,88,Returns Desk,1,,None
+SO-00311,Amazon,National,Sale,2026-01-29,Open,HE-1006,12,596.36,7156.32,,0,0,596.36,596.36,59,Returns Desk,0,,None
+SO-00312,Target,Central,Return,2026-02-21,Open,HE-1007,11,455.51,5010.61,RA-10312,11,11,455.51,471.27,36,Customer Care,0,Customer refusal,Credit Memo
+SO-00313,Target,Central,Return,2026-03-03,Closed,HE-1004,1,674.94,674.94,RA-10313,1,0,674.94,674.94,26,Returns Desk,0,,None
+SO-00314,Lowe's,East,Return,2026-03-15,Processing,HE-1006,38,267.75,10174.5,RA-10314,38,36,267.75,251.72,14,Returns Desk,0,Late delivery,Debit Memo
+SO-00315,Macy's,East,Sale,2026-03-04,Open,HE-1001,26,68.29,1775.54,,0,0,68.29,68.29,25,Returns Desk,0,,None
+SO-00316,Costco,West,Return,2025-12-27,Closed,HE-1001,3,315.76,947.28,RA-10316,3,0,315.76,315.76,92,Order Management,1,,None
+SO-00317,Target,Central,Sale,2026-02-03,Processing,HE-1005,8,435.36,3482.88,,0,0,435.36,435.36,54,Order Management,1,,None
+SO-00318,Amazon,National,Sale,2026-01-03,Pending Review,HE-1005,40,475.92,19036.8,,0,0,475.92,493.64,85,Order Management,1,,Credit Memo
+SO-00319,Walmart,South,Sale,2026-01-24,Open,HE-1007,13,595.68,7743.84,,0,0,595.68,595.68,64,Sales Ops,0,,None
+SO-00320,Home Depot,South,Return,2026-01-17,Pending Review,HE-1003,14,533.3,7466.2,RA-10320,14,13,533.3,533.3,71,Customer Care,0,,None
+SO-00321,Walmart,South,Sale,2026-03-19,Closed,HE-1005,7,683.82,4786.74,,0,0,683.82,683.82,10,Sales Ops,0,,None
+SO-00322,Macy's,East,Return,2026-03-06,Resolved,HE-1003,19,305.35,5801.65,RA-10322,19,16,305.35,305.35,23,Returns Desk,1,Damaged in transit,None
+SO-00323,Lowe's,East,Sale,2026-01-31,Resolved,HE-1007,18,665.54,11979.72,,0,0,665.54,682.58,57,Customer Care,0,,Credit Memo
+SO-00324,Macy's,East,Return,2026-02-07,Closed,HE-1002,31,610.93,18938.83,RA-10324,31,30,610.93,610.93,50,Returns Desk,1,,None
+SO-00325,Amazon,National,Sale,2026-01-26,Closed,HE-1003,29,180.98,5248.42,,0,0,180.98,180.98,62,Order Management,0,,None
+SO-00326,Macy's,East,Sale,2026-03-14,Resolved,HE-1006,29,86.95,2521.55,,0,0,86.95,86.95,15,Returns Desk,0,,None
+SO-00327,Walmart,South,Sale,2025-12-25,Processing,HE-1001,23,516.28,11874.44,,0,0,516.28,516.28,94,Order Management,1,,None
+SO-00328,Costco,West,Sale,2026-01-27,Closed,HE-1001,11,107.03,1177.33,,0,0,107.03,107.03,61,Sales Ops,0,,None
+SO-00329,Best Buy,East,Sale,2026-02-08,Processing,HE-1008,16,109.79,1756.64,,0,0,109.79,109.79,49,Order Management,0,,None
+SO-00330,Macy's,East,Return,2026-01-24,Closed,HE-1004,2,126.34,252.68,RA-10330,2,0,126.34,126.34,64,Sales Ops,0,,None
+SO-00331,Macy's,East,Sale,2026-02-10,Closed,HE-1006,15,641.8,9627.0,,0,0,641.8,641.8,47,Customer Care,0,,None
+SO-00332,Macy's,East,Return,2026-01-03,Processing,HE-1008,22,301.82,6640.04,RA-10332,22,20,301.82,301.82,85,Returns Desk,1,Damaged in transit,None
+SO-00333,Costco,West,Sale,2025-12-26,Processing,HE-1004,17,479.54,8152.18,,0,0,479.54,501.54,93,Customer Care,0,,Credit Memo
+SO-00334,Lowe's,East,Return,2026-02-03,Open,HE-1001,38,140.64,5344.32,RA-10334,38,35,140.64,140.64,54,Customer Care,1,,None
+SO-00335,Target,Central,Sale,2026-02-01,Closed,HE-1003,31,697.44,21620.64,,0,0,697.44,697.44,56,Returns Desk,0,,None
+SO-00336,Walmart,South,Sale,2026-01-11,Pending Review,HE-1005,21,405.36,8512.56,,0,0,405.36,405.36,77,Returns Desk,0,,None
+SO-00337,Amazon,National,Sale,2026-02-19,Pending Review,HE-1006,9,151.04,1359.36,,0,0,151.04,151.04,38,Sales Ops,0,,None
+SO-00338,Best Buy,East,Return,2026-01-08,Closed,HE-1006,23,695.23,15990.29,RA-10338,23,22,695.23,707.78,80,Order Management,0,,Credit Memo
+SO-00339,Macy's,East,Sale,2026-01-02,Closed,HE-1001,35,253.72,8880.2,,0,0,253.72,253.72,86,Order Management,0,,None
+SO-00340,Amazon,National,Return,2026-01-02,Open,HE-1006,18,576.38,10374.84,RA-10340,18,16,576.38,570.7,86,Order Management,0,Pricing discrepancy,Debit Memo
+SO-00341,Macy's,East,Return,2026-01-01,Closed,HE-1007,15,570.98,8564.7,RA-10341,15,14,570.98,570.98,87,Order Management,0,,None
+SO-00342,Amazon,National,Sale,2025-12-31,Processing,HE-1004,36,92.39,3326.04,,0,0,92.39,92.39,88,Customer Care,0,,None
+SO-00343,Lowe's,East,Sale,2026-01-18,Closed,HE-1002,13,594.42,7727.46,,0,0,594.42,594.42,70,Returns Desk,0,,None
+SO-00344,Costco,West,Sale,2025-12-24,Pending Review,HE-1005,25,83.24,2081.0,,0,0,83.24,83.24,95,Returns Desk,0,,None
+SO-00345,Target,Central,Sale,2025-12-28,Resolved,HE-1008,3,161.82,485.46,,0,0,161.82,161.82,91,Sales Ops,1,,None
+SO-00346,Lowe's,East,Return,2025-12-28,Processing,HE-1004,15,720.11,10801.65,RA-10346,15,11,720.11,720.11,91,Returns Desk,1,Customer refusal,None
+SO-00347,Lowe's,East,Sale,2026-02-19,Processing,HE-1002,40,423.7,16948.0,,0,0,423.7,423.7,38,Order Management,0,,None
+SO-00348,Lowe's,East,Sale,2026-01-05,Closed,HE-1007,40,224.46,8978.4,,0,0,224.46,244.54,83,Order Management,0,,Credit Memo
+SO-00349,Home Depot,South,Sale,2026-02-20,Open,HE-1008,34,626.37,21296.58,,0,0,626.37,626.37,37,Customer Care,0,,None
+SO-00350,Target,Central,Return,2026-01-04,Open,HE-1007,33,112.23,3703.59,RA-10350,33,29,112.23,136.01,84,Returns Desk,0,,Credit Memo
+SO-00351,Walmart,South,Return,2025-12-29,Resolved,HE-1001,28,504.36,14122.08,RA-10351,28,27,504.36,504.36,90,Order Management,1,,None
+SO-00352,Costco,West,Sale,2026-01-16,Open,HE-1007,15,688.14,10322.1,,0,0,688.14,688.14,72,Customer Care,0,,None
+SO-00353,Lowe's,East,Return,2026-01-01,Open,HE-1005,1,500.79,500.79,RA-10353,1,0,500.79,500.79,87,Order Management,0,,None
+SO-00354,Home Depot,South,Sale,2026-02-20,Closed,HE-1004,29,320.08,9282.32,,0,0,320.08,320.08,37,Returns Desk,1,,None
+SO-00355,Costco,West,Sale,2026-01-18,Processing,HE-1001,10,262.15,2621.5,,0,0,262.15,262.15,70,Sales Ops,0,,None
+SO-00356,Costco,West,Return,2026-03-28,Pending Review,HE-1007,26,428.32,11136.32,RA-10356,26,24,428.32,428.32,1,Returns Desk,0,,None
+SO-00357,Costco,West,Return,2026-02-28,Closed,HE-1002,17,190.06,3231.02,,17,17,190.06,206.45,29,Customer Care,0,,Credit Memo
+SO-00358,Home Depot,South,Sale,2026-02-24,Open,HE-1002,38,393.6,14956.8,,0,0,393.6,393.6,33,Returns Desk,1,,None
+SO-00359,Home Depot,South,Sale,2026-03-04,Processing,HE-1006,29,283.2,8212.8,,0,0,283.2,283.2,25,Returns Desk,0,,None
+SO-00360,Lowe's,East,Sale,2026-03-07,Open,HE-1006,16,601.03,9616.48,,0,0,601.03,601.03,22,Sales Ops,0,,None
+SO-00361,Costco,West,Sale,2026-02-14,Resolved,HE-1003,30,364.52,10935.6,,0,0,364.52,364.52,43,Order Management,0,,None
+SO-00362,Walmart,South,Sale,2026-03-11,Resolved,HE-1001,13,237.95,3093.35,,0,0,237.95,237.95,18,Order Management,1,,None
+SO-00363,Target,Central,Sale,2026-01-13,Processing,HE-1003,38,202.87,7709.06,,0,0,202.87,196.08,75,Customer Care,0,,Debit Memo
+SO-00364,Lowe's,East,Sale,2026-01-12,Closed,HE-1001,19,148.05,2812.95,,0,0,148.05,148.05,76,Sales Ops,1,,None
+SO-00365,Best Buy,East,Sale,2026-01-09,Closed,HE-1008,33,152.56,5034.48,,0,0,152.56,158.91,79,Returns Desk,0,,Credit Memo
+SO-00366,Lowe's,East,Return,2026-01-25,Processing,HE-1006,17,311.76,5299.92,RA-10366,17,15,311.76,302.65,63,Order Management,0,,Debit Memo
+SO-00367,Walmart,South,Sale,2026-01-21,Closed,HE-1007,18,635.24,11434.32,,0,0,635.24,635.24,67,Returns Desk,0,,None
+SO-00368,Amazon,National,Sale,2026-01-04,Resolved,HE-1006,5,414.08,2070.4,,0,0,414.08,414.08,84,Customer Care,0,,None
+SO-00369,Lowe's,East,Sale,2026-01-26,Resolved,HE-1004,1,403.78,403.78,,0,0,403.78,392.9,62,Sales Ops,1,,Debit Memo
+SO-00370,Costco,West,Return,2026-02-10,Pending Review,HE-1007,8,514.47,4115.76,RA-10370,8,6,514.47,514.47,47,Returns Desk,0,Customer refusal,None
+SO-00371,Target,Central,Return,2026-03-12,Pending Review,HE-1001,11,148.63,1634.93,RA-10371,11,7,148.63,148.63,17,Customer Care,0,Incorrect item received,None
+SO-00372,Home Depot,South,Sale,2026-03-01,Processing,HE-1005,31,657.78,20391.18,,0,0,657.78,675.49,28,Returns Desk,0,,Credit Memo
+SO-00373,Costco,West,Sale,2026-02-13,Resolved,HE-1001,39,465.46,18152.94,,0,0,465.46,465.46,44,Order Management,0,,None
+SO-00374,Best Buy,East,Sale,2026-01-23,Closed,HE-1002,10,475.83,4758.3,,0,0,475.83,496.6,65,Order Management,0,,Credit Memo
+SO-00375,Macy's,East,Sale,2026-01-10,Pending Review,HE-1006,1,678.39,678.39,,0,0,678.39,678.39,78,Customer Care,0,,None
+SO-00376,Target,Central,Sale,2026-02-02,Processing,HE-1007,31,603.74,18715.94,,0,0,603.74,603.74,55,Order Management,0,,None
+SO-00377,Costco,West,Return,2026-02-27,Resolved,HE-1001,6,251.87,1511.22,RA-10377,6,3,251.87,251.87,30,Order Management,0,Over shipment,None
+SO-00378,Amazon,National,Sale,2025-12-30,Closed,HE-1006,27,306.78,8283.06,,0,0,306.78,316.8,89,Customer Care,0,,Credit Memo
+SO-00379,Home Depot,South,Sale,2026-02-06,Closed,HE-1005,27,438.71,11845.17,,0,0,438.71,438.71,51,Customer Care,0,,None
+SO-00380,Home Depot,South,Sale,2025-12-28,Processing,HE-1003,9,649.22,5842.98,,0,0,649.22,649.22,91,Customer Care,0,,None
+SO-00381,Walmart,South,Return,2026-02-05,Closed,HE-1003,36,481.75,17343.0,RA-10381,36,36,481.75,481.75,52,Order Management,1,,None
+SO-00382,Macy's,East,Sale,2026-02-01,Open,HE-1005,17,209.13,3555.21,,0,0,209.13,192.75,56,Customer Care,0,,Debit Memo
+SO-00383,Target,Central,Sale,2026-03-06,Closed,HE-1004,29,62.44,1810.76,,0,0,62.44,62.44,23,Sales Ops,0,,None
+SO-00384,Target,Central,Sale,2026-01-22,Pending Review,HE-1003,15,482.56,7238.4,,0,0,482.56,482.56,66,Order Management,0,,None
+SO-00385,Walmart,South,Sale,2026-02-05,Processing,HE-1002,26,336.79,8756.54,,0,0,336.79,336.79,52,Order Management,1,,None
+SO-00386,Home Depot,South,Sale,2026-01-16,Resolved,HE-1008,23,296.5,6819.5,,0,0,296.5,296.5,72,Returns Desk,0,,None
+SO-00387,Amazon,National,Sale,2026-02-23,Open,HE-1005,33,128.99,4256.67,,0,0,128.99,123.64,34,Sales Ops,0,,Debit Memo
+SO-00388,Macy's,East,Sale,2026-01-15,Pending Review,HE-1001,16,581.44,9303.04,,0,0,581.44,581.44,73,Customer Care,0,,None
+SO-00389,Macy's,East,Return,2026-03-20,Processing,HE-1004,15,525.45,7881.75,RA-10389,15,13,525.45,525.45,9,Sales Ops,1,Late delivery,None
+SO-00390,Home Depot,South,Return,2026-01-01,Closed,HE-1008,22,107.84,2372.48,RA-10390,22,19,107.84,107.84,87,Returns Desk,0,Late delivery,None
+SO-00391,Best Buy,East,Return,2026-02-26,Resolved,HE-1008,14,214.3,3000.2,RA-10391,14,10,214.3,214.3,31,Order Management,1,,None
+SO-00392,Target,Central,Sale,2026-01-18,Resolved,HE-1008,31,312.98,9702.38,,0,0,312.98,312.98,70,Sales Ops,0,,None
+SO-00393,Costco,West,Sale,2026-01-22,Processing,HE-1006,15,576.37,8645.55,,0,0,576.37,580.98,66,Order Management,0,,Credit Memo
+SO-00394,Amazon,National,Sale,2026-03-06,Pending Review,HE-1004,8,540.28,4322.24,,0,0,540.28,540.28,23,Order Management,0,,None
+SO-00395,Amazon,National,Sale,2026-02-15,Processing,HE-1006,17,185.07,3146.19,,0,0,185.07,185.07,42,Sales Ops,0,,None
+SO-00396,Costco,West,Sale,2026-03-02,Processing,HE-1004,24,308.73,7409.52,,0,0,308.73,308.73,27,Returns Desk,0,,None
+SO-00397,Walmart,South,Sale,2026-02-26,Pending Review,HE-1001,25,191.26,4781.5,,0,0,191.26,191.26,31,Customer Care,0,,None
+SO-00398,Costco,West,Sale,2026-03-11,Resolved,HE-1001,34,426.12,14488.08,,0,0,426.12,426.12,18,Sales Ops,0,,None
+SO-00399,Amazon,National,Return,2026-03-08,Open,HE-1006,17,386.19,6565.23,RA-10399,17,14,386.19,386.19,21,Sales Ops,0,Pricing discrepancy,None
+SO-00400,Target,Central,Sale,2026-02-12,Resolved,HE-1005,39,193.28,7537.92,,0,0,193.28,193.28,45,Returns Desk,0,,None
+SO-00401,Lowe's,East,Return,2026-01-22,Pending Review,HE-1007,29,673.29,19525.41,RA-10401,29,27,673.29,673.29,66,Sales Ops,0,,None
+SO-00402,Amazon,National,Sale,2026-03-19,Open,HE-1007,22,213.61,4699.42,,0,0,213.61,213.61,10,Sales Ops,0,,None
+SO-00403,Home Depot,South,Sale,2026-02-10,Closed,HE-1003,34,726.04,24685.36,,0,0,726.04,726.04,47,Order Management,0,,None
+SO-00404,Best Buy,East,Sale,2025-12-29,Closed,HE-1001,14,171.0,2394.0,,0,0,171.0,155.74,90,Order Management,0,,Debit Memo
+SO-00405,Amazon,National,Sale,2026-03-18,Open,HE-1004,40,162.92,6516.8,,0,0,162.92,162.92,11,Sales Ops,0,,None
+SO-00406,Best Buy,East,Sale,2026-01-31,Closed,HE-1008,9,421.09,3789.81,,0,0,421.09,404.6,57,Sales Ops,0,,Debit Memo
+SO-00407,Macy's,East,Sale,2026-01-18,Resolved,HE-1008,36,364.17,13110.12,,0,0,364.17,364.17,70,Returns Desk,0,,None
+SO-00408,Amazon,National,Sale,2026-01-06,Pending Review,HE-1006,23,389.75,8964.25,,0,0,389.75,389.75,82,Sales Ops,1,,None
+SO-00409,Amazon,National,Return,2026-02-18,Open,HE-1005,34,621.69,21137.46,RA-10409,34,32,621.69,621.69,39,Customer Care,0,Over shipment,None
+SO-00410,Target,Central,Sale,2026-02-19,Pending Review,HE-1003,1,436.01,436.01,,0,0,436.01,455.94,38,Returns Desk,0,,Credit Memo
+SO-00411,Amazon,National,Sale,2026-02-28,Processing,HE-1005,28,489.6,13708.8,,0,0,489.6,489.6,29,Sales Ops,0,,None
+SO-00412,Home Depot,South,Sale,2026-03-20,Open,HE-1004,19,131.7,2502.3,,0,0,131.7,131.7,9,Customer Care,0,,None
+SO-00413,Lowe's,East,Return,2026-03-22,Resolved,HE-1006,2,184.23,368.46,RA-10413,2,0,184.23,177.81,7,Returns Desk,1,Incorrect item received,Debit Memo
+SO-00414,Amazon,National,Return,2026-01-24,Resolved,HE-1003,30,539.37,16181.1,RA-10414,30,29,539.37,524.82,64,Customer Care,1,,Debit Memo
+SO-00415,Best Buy,East,Sale,2026-02-24,Closed,HE-1004,1,139.76,139.76,,0,0,139.76,139.76,33,Customer Care,0,,None
+SO-00416,Target,Central,Return,2025-12-24,Closed,HE-1002,34,517.88,17607.92,RA-10416,34,31,517.88,517.88,95,Order Management,1,Pricing discrepancy,None
+SO-00417,Home Depot,South,Sale,2026-02-18,Open,HE-1006,4,655.24,2620.96,,0,0,655.24,655.24,39,Customer Care,1,,None
+SO-00418,Target,Central,Return,2026-02-21,Pending Review,HE-1002,26,603.45,15689.7,RA-10418,26,23,603.45,587.26,36,Customer Care,0,Damaged in transit,Debit Memo
+SO-00419,Lowe's,East,Sale,2026-01-07,Open,HE-1008,23,502.98,11568.54,,0,0,502.98,502.98,81,Returns Desk,0,,None
+SO-00420,Best Buy,East,Return,2026-01-16,Closed,HE-1008,23,614.84,14141.32,RA-10420,23,22,614.84,614.84,72,Order Management,1,Over shipment,None
+SO-00421,Macy's,East,Sale,2026-01-18,Closed,HE-1005,13,448.86,5835.18,,0,0,448.86,448.86,70,Customer Care,0,,None
+SO-00422,Costco,West,Return,2026-03-09,Processing,HE-1004,17,431.42,7334.14,RA-10422,17,13,431.42,431.42,20,Sales Ops,0,Damaged in transit,None
+SO-00423,Lowe's,East,Sale,2026-01-03,Resolved,HE-1005,25,186.96,4674.0,,0,0,186.96,186.96,85,Returns Desk,0,,None
+SO-00424,Lowe's,East,Sale,2026-02-15,Open,HE-1004,34,512.93,17439.62,,0,0,512.93,535.26,42,Order Management,0,,Credit Memo
+SO-00425,Walmart,South,Sale,2026-03-16,Open,HE-1001,25,512.26,12806.5,,0,0,512.26,512.26,13,Sales Ops,0,,None
+SO-00426,Lowe's,East,Return,2025-12-27,Open,HE-1006,14,510.75,7150.5,RA-10426,14,14,510.75,510.75,92,Customer Care,0,,None
+SO-00427,Target,Central,Sale,2026-02-22,Pending Review,HE-1004,5,634.95,3174.75,,0,0,634.95,626.23,35,Order Management,0,,Debit Memo
+SO-00428,Amazon,National,Return,2026-01-20,Closed,HE-1007,37,489.6,18115.2,RA-10428,37,34,489.6,503.82,68,Customer Care,0,,Credit Memo
+SO-00429,Walmart,South,Return,2026-03-05,Pending Review,HE-1006,33,289.57,9555.81,,33,30,289.57,314.5,24,Sales Ops,0,,Credit Memo
+SO-00430,Amazon,National,Sale,2026-02-01,Closed,HE-1006,21,477.85,10034.85,,0,0,477.85,477.85,56,Sales Ops,0,,None
+SO-00431,Macy's,East,Sale,2026-02-06,Open,HE-1001,3,738.15,2214.45,,0,0,738.15,738.15,51,Sales Ops,0,,None
+SO-00432,Home Depot,South,Sale,2026-03-01,Closed,HE-1002,2,591.21,1182.42,,0,0,591.21,591.21,28,Returns Desk,0,,None
+SO-00433,Target,Central,Sale,2026-03-09,Open,HE-1002,24,673.29,16158.96,,0,0,673.29,673.29,20,Sales Ops,0,,None
+SO-00434,Amazon,National,Sale,2026-03-01,Closed,HE-1005,21,606.07,12727.47,,0,0,606.07,623.58,28,Order Management,0,,Credit Memo
+SO-00435,Target,Central,Sale,2026-01-14,Processing,HE-1007,4,695.7,2782.8,,0,0,695.7,695.7,74,Customer Care,0,,None
+SO-00436,Walmart,South,Sale,2026-02-27,Closed,HE-1005,39,700.41,27315.99,,0,0,700.41,700.41,30,Order Management,0,,None
+SO-00437,Target,Central,Return,2026-01-15,Open,HE-1004,33,539.95,17818.35,,33,30,539.95,550.92,73,Order Management,0,,Credit Memo
+SO-00438,Amazon,National,Return,2026-02-06,Open,HE-1003,22,112.37,2472.14,RA-10438,22,22,112.37,112.37,51,Returns Desk,0,Customer refusal,None
+SO-00439,Macy's,East,Sale,2026-01-25,Processing,HE-1004,37,191.29,7077.73,,0,0,191.29,191.29,63,Returns Desk,0,,None
+SO-00440,Walmart,South,Return,2026-02-01,Processing,HE-1005,37,117.27,4338.99,RA-10440,37,34,117.27,117.27,56,Order Management,0,Pricing discrepancy,None
+SO-00441,Costco,West,Sale,2026-01-09,Closed,HE-1004,29,488.11,14155.19,,0,0,488.11,488.11,79,Returns Desk,0,,None
+SO-00442,Lowe's,East,Return,2025-12-25,Closed,HE-1006,8,569.01,4552.08,,8,4,569.01,569.01,94,Order Management,0,,None
+SO-00443,Walmart,South,Return,2026-01-27,Open,HE-1001,14,569.31,7970.34,RA-10443,14,10,569.31,569.31,61,Returns Desk,0,Customer refusal,None
+SO-00444,Amazon,National,Sale,2026-01-03,Pending Review,HE-1001,17,173.37,2947.29,,0,0,173.37,173.37,85,Sales Ops,0,,None
+SO-00445,Macy's,East,Sale,2026-03-27,Open,HE-1001,18,515.77,9283.86,,0,0,515.77,515.77,2,Order Management,0,,None
+SO-00446,Home Depot,South,Sale,2026-01-04,Processing,HE-1002,25,408.44,10211.0,,0,0,408.44,408.44,84,Customer Care,0,,None
+SO-00447,Costco,West,Return,2026-01-29,Pending Review,HE-1006,2,82.63,165.26,RA-10447,2,0,82.63,82.63,59,Sales Ops,1,Incorrect item received,None
+SO-00448,Home Depot,South,Return,2026-01-23,Processing,HE-1007,4,489.93,1959.72,,4,4,489.93,489.93,65,Sales Ops,0,,None
+SO-00449,Costco,West,Return,2026-02-08,Pending Review,HE-1008,40,661.53,26461.2,RA-10449,40,37,661.53,661.53,49,Sales Ops,0,Pricing discrepancy,None
+SO-00450,Costco,West,Return,2026-03-11,Pending Review,HE-1006,13,654.5,8508.5,,13,9,654.5,654.5,18,Returns Desk,0,Incorrect item received,None
+SO-00451,Walmart,South,Sale,2025-12-26,Open,HE-1007,21,638.47,13407.87,,0,0,638.47,621.74,93,Customer Care,0,,Debit Memo
+SO-00452,Home Depot,South,Sale,2026-01-06,Resolved,HE-1004,18,160.61,2890.98,,0,0,160.61,148.27,82,Sales Ops,1,,Debit Memo
+SO-00453,Best Buy,East,Return,2026-03-25,Processing,HE-1003,31,148.19,4593.89,RA-10453,31,28,148.19,148.19,4,Returns Desk,0,Customer refusal,None
+SO-00454,Best Buy,East,Return,2026-02-04,Closed,HE-1003,1,698.18,698.18,RA-10454,1,0,698.18,698.18,53,Order Management,0,,None
+SO-00455,Macy's,East,Sale,2026-01-25,Closed,HE-1006,30,671.87,20156.1,,0,0,671.87,671.87,63,Customer Care,0,,None
+SO-00456,Amazon,National,Sale,2026-01-14,Pending Review,HE-1008,34,500.77,17026.18,,0,0,500.77,500.77,74,Order Management,1,,None
+SO-00457,Macy's,East,Sale,2026-03-23,Resolved,HE-1001,16,415.5,6648.0,,0,0,415.5,415.5,6,Customer Care,0,,None
+SO-00458,Best Buy,East,Return,2026-02-06,Resolved,HE-1008,19,375.64,7137.16,,19,15,375.64,375.64,51,Customer Care,0,,None
+SO-00459,Walmart,South,Sale,2026-03-14,Open,HE-1006,38,706.8,26858.4,,0,0,706.8,706.8,15,Customer Care,1,,None
+SO-00460,Macy's,East,Return,2026-01-29,Pending Review,HE-1002,13,668.37,8688.81,RA-10460,13,12,668.37,664.31,59,Sales Ops,0,Damaged in transit,Debit Memo
+SO-00461,Amazon,National,Sale,2026-01-22,Closed,HE-1003,11,318.18,3499.98,,0,0,318.18,318.18,66,Sales Ops,0,,None
+SO-00462,Costco,West,Sale,2026-03-06,Closed,HE-1005,4,346.61,1386.44,,0,0,346.61,346.61,23,Customer Care,0,,None
+SO-00463,Costco,West,Return,2026-03-12,Resolved,HE-1004,1,487.68,487.68,RA-10463,1,0,487.68,487.68,17,Customer Care,0,Damaged in transit,None
+SO-00464,Best Buy,East,Sale,2026-01-27,Pending Review,HE-1004,29,110.19,3195.51,,0,0,110.19,110.19,61,Sales Ops,0,,None
+SO-00465,Target,Central,Return,2026-03-21,Closed,HE-1003,3,156.04,468.12,RA-10465,3,0,156.04,162.9,8,Customer Care,1,,Credit Memo
+SO-00466,Costco,West,Sale,2026-01-09,Closed,HE-1001,39,452.74,17656.86,,0,0,452.74,452.74,79,Sales Ops,0,,None
+SO-00467,Walmart,South,Sale,2026-02-15,Processing,HE-1005,25,625.08,15627.0,,0,0,625.08,625.08,42,Order Management,0,,None
+SO-00468,Macy's,East,Return,2025-12-30,Closed,HE-1008,22,421.3,9268.6,RA-10468,22,21,421.3,421.3,89,Order Management,0,Over shipment,None
+SO-00469,Home Depot,South,Sale,2026-02-16,Processing,HE-1008,37,746.54,27621.98,,0,0,746.54,746.54,41,Customer Care,1,,None
+SO-00470,Macy's,East,Sale,2026-01-09,Processing,HE-1004,19,735.58,13976.02,,0,0,735.58,718.61,79,Order Management,0,,Debit Memo
+SO-00471,Amazon,National,Sale,2026-02-14,Processing,HE-1005,14,62.85,879.9,,0,0,62.85,62.85,43,Order Management,0,,None
+SO-00472,Home Depot,South,Sale,2026-02-15,Closed,HE-1003,8,531.66,4253.28,,0,0,531.66,531.66,42,Order Management,0,,None
+SO-00473,Best Buy,East,Sale,2026-02-13,Resolved,HE-1003,31,691.73,21443.63,,0,0,691.73,691.73,44,Customer Care,0,,None
+SO-00474,Macy's,East,Sale,2026-01-19,Resolved,HE-1006,30,599.87,17996.1,,0,0,599.87,599.87,69,Sales Ops,0,,None
+SO-00475,Target,Central,Return,2025-12-31,Processing,HE-1003,23,101.02,2323.46,,23,21,101.02,119.17,88,Customer Care,0,,Credit Memo
+SO-00476,Walmart,South,Sale,2026-02-17,Closed,HE-1006,21,548.34,11515.14,,0,0,548.34,548.34,40,Returns Desk,1,,None
+SO-00477,Macy's,East,Sale,2026-02-18,Processing,HE-1002,20,176.63,3532.6,,0,0,176.63,176.63,39,Returns Desk,1,,None
+SO-00478,Macy's,East,Sale,2026-01-26,Resolved,HE-1006,10,187.2,1872.0,,0,0,187.2,187.2,62,Sales Ops,0,,None
+SO-00479,Costco,West,Sale,2026-03-16,Closed,HE-1001,34,525.32,17860.88,,0,0,525.32,538.48,13,Order Management,0,,Credit Memo
+SO-00480,Home Depot,South,Sale,2025-12-31,Closed,HE-1001,6,286.64,1719.84,,0,0,286.64,286.64,88,Sales Ops,1,,None
+SO-00481,Home Depot,South,Sale,2026-03-02,Processing,HE-1005,13,254.16,3304.08,,0,0,254.16,254.16,27,Order Management,0,,None
+SO-00482,Costco,West,Return,2026-03-14,Open,HE-1003,40,443.94,17757.6,RA-10482,40,36,443.94,449.27,15,Returns Desk,0,Over shipment,Credit Memo
+SO-00483,Walmart,South,Return,2026-02-13,Pending Review,HE-1006,4,145.4,581.6,RA-10483,4,4,145.4,145.4,44,Customer Care,0,Customer refusal,None
+SO-00484,Home Depot,South,Sale,2026-03-03,Closed,HE-1002,35,109.59,3835.65,,0,0,109.59,109.59,26,Returns Desk,0,,None
+SO-00485,Macy's,East,Return,2026-02-17,Closed,HE-1003,30,382.03,11460.9,,30,29,382.03,382.03,40,Customer Care,0,,None
+SO-00486,Lowe's,East,Sale,2026-02-15,Pending Review,HE-1006,2,100.43,200.86,,0,0,100.43,103.01,42,Sales Ops,0,,Credit Memo
+SO-00487,Costco,West,Sale,2026-02-05,Closed,HE-1007,7,281.48,1970.36,,0,0,281.48,281.48,52,Customer Care,0,,None
+SO-00488,Amazon,National,Return,2026-02-25,Pending Review,HE-1004,31,321.75,9974.25,RA-10488,31,27,321.75,321.75,32,Sales Ops,0,,None
+SO-00489,Costco,West,Sale,2026-03-19,Closed,HE-1008,37,636.54,23551.98,,0,0,636.54,644.17,10,Order Management,0,,Credit Memo
+SO-00490,Costco,West,Return,2026-02-05,Open,HE-1003,7,531.43,3720.01,RA-10490,7,4,531.43,531.43,52,Returns Desk,1,,None
+SO-00491,Target,Central,Sale,2026-01-03,Open,HE-1006,35,257.59,9015.65,,0,0,257.59,257.59,85,Returns Desk,0,,None
+SO-00492,Home Depot,South,Sale,2026-01-01,Processing,HE-1007,28,553.86,15508.08,,0,0,553.86,553.86,87,Order Management,0,,None
+SO-00493,Costco,West,Sale,2026-03-21,Processing,HE-1005,36,727.69,26196.84,,0,0,727.69,733.77,8,Order Management,0,,Credit Memo
+SO-00494,Target,Central,Return,2025-12-29,Pending Review,HE-1007,21,549.68,11543.28,RA-10494,21,18,549.68,549.68,90,Returns Desk,0,,None
+SO-00495,Lowe's,East,Sale,2026-03-09,Processing,HE-1007,9,148.32,1334.88,,0,0,148.32,131.0,20,Customer Care,0,,Debit Memo
+SO-00496,Costco,West,Return,2026-01-05,Closed,HE-1007,30,676.04,20281.2,RA-10496,30,27,676.04,676.04,83,Customer Care,0,Customer refusal,None
+SO-00497,Lowe's,East,Return,2026-02-02,Pending Review,HE-1001,37,401.22,14845.14,RA-10497,37,33,401.22,401.22,55,Order Management,0,,None
+SO-00498,Macy's,East,Sale,2026-03-14,Pending Review,HE-1008,6,153.75,922.5,,0,0,153.75,153.75,15,Sales Ops,0,,None
+SO-00499,Walmart,South,Sale,2026-01-09,Open,HE-1001,31,493.31,15292.61,,0,0,493.31,493.31,79,Sales Ops,0,,None
+SO-00500,Lowe's,East,Sale,2026-03-27,Pending Review,HE-1005,33,684.71,22595.43,,0,0,684.71,684.71,2,Sales Ops,0,,None
+SO-00501,Home Depot,South,Return,2025-12-30,Resolved,HE-1001,20,560.25,11205.0,RA-10501,20,20,560.25,560.25,89,Sales Ops,1,Late delivery,None
+SO-00502,Home Depot,South,Sale,2026-03-12,Pending Review,HE-1001,18,230.18,4143.24,,0,0,230.18,230.18,17,Sales Ops,0,,None
+SO-00503,Walmart,South,Sale,2026-01-12,Closed,HE-1001,29,311.99,9047.71,,0,0,311.99,327.64,76,Returns Desk,0,,Credit Memo
+SO-00504,Lowe's,East,Sale,2026-03-10,Pending Review,HE-1004,10,637.14,6371.4,,0,0,637.14,637.14,19,Customer Care,0,,None
+SO-00505,Macy's,East,Sale,2026-03-07,Processing,HE-1003,23,92.76,2133.48,,0,0,92.76,92.76,22,Order Management,0,,None
+SO-00506,Macy's,East,Sale,2026-02-18,Pending Review,HE-1003,35,217.39,7608.65,,0,0,217.39,217.39,39,Sales Ops,0,,None
+SO-00507,Amazon,National,Return,2026-01-30,Processing,HE-1005,21,723.43,15192.03,RA-10507,21,21,723.43,723.43,58,Customer Care,0,Pricing discrepancy,None
+SO-00508,Lowe's,East,Return,2026-03-16,Processing,HE-1003,38,326.85,12420.3,RA-10508,38,37,326.85,326.85,13,Sales Ops,0,,None
+SO-00509,Lowe's,East,Sale,2026-01-01,Open,HE-1005,5,63.31,316.55,,0,0,63.31,49.78,87,Returns Desk,0,,Debit Memo
+SO-00510,Home Depot,South,Return,2026-03-25,Closed,HE-1002,4,707.26,2829.04,,4,3,707.26,707.26,4,Order Management,0,,None
+SO-00511,Costco,West,Sale,2026-01-05,Pending Review,HE-1002,12,677.72,8132.64,,0,0,677.72,677.72,83,Customer Care,0,,None
+SO-00512,Macy's,East,Sale,2026-02-21,Closed,HE-1007,21,233.85,4910.85,,0,0,233.85,233.85,36,Order Management,0,,None
+SO-00513,Amazon,National,Sale,2026-03-21,Processing,HE-1003,17,178.66,3037.22,,0,0,178.66,202.78,8,Customer Care,0,,Credit Memo
+SO-00514,Macy's,East,Return,2026-01-18,Closed,HE-1001,14,481.71,6743.94,RA-10514,14,12,481.71,482.7,70,Customer Care,0,Late delivery,Credit Memo
+SO-00515,Macy's,East,Return,2026-01-06,Open,HE-1008,3,516.9,1550.7,,3,1,516.9,516.9,82,Customer Care,0,Late delivery,None
+SO-00516,Amazon,National,Sale,2025-12-25,Closed,HE-1002,5,430.39,2151.95,,0,0,430.39,453.42,94,Customer Care,0,,Credit Memo
+SO-00517,Lowe's,East,Sale,2026-02-18,Processing,HE-1005,6,308.92,1853.52,,0,0,308.92,308.92,39,Customer Care,0,,None
+SO-00518,Best Buy,East,Return,2026-03-23,Resolved,HE-1004,13,262.71,3415.23,RA-10518,13,13,262.71,262.71,6,Customer Care,0,Damaged in transit,None
+SO-00519,Costco,West,Return,2026-03-25,Closed,HE-1001,38,220.75,8388.5,RA-10519,38,34,220.75,220.75,4,Order Management,0,Customer refusal,None
+SO-00520,Lowe's,East,Return,2025-12-26,Open,HE-1004,8,202.12,1616.96,RA-10520,8,4,202.12,202.12,93,Returns Desk,0,,None
+SO-00521,Walmart,South,Return,2026-03-10,Pending Review,HE-1005,2,382.5,765.0,RA-10521,2,2,382.5,382.5,19,Order Management,1,,None
+SO-00522,Walmart,South,Sale,2026-03-07,Closed,HE-1002,5,623.37,3116.85,,0,0,623.37,626.75,22,Returns Desk,0,,Credit Memo
+SO-00523,Best Buy,East,Sale,2025-12-24,Closed,HE-1004,21,138.96,2918.16,,0,0,138.96,138.96,95,Sales Ops,0,,None
+SO-00524,Target,Central,Sale,2026-02-14,Open,HE-1008,18,153.16,2756.88,,0,0,153.16,153.16,43,Returns Desk,0,,None
+SO-00525,Best Buy,East,Sale,2026-03-23,Open,HE-1003,40,316.41,12656.4,,0,0,316.41,336.23,6,Order Management,1,,Credit Memo
+SO-00526,Walmart,South,Sale,2026-01-12,Resolved,HE-1004,27,536.98,14498.46,,0,0,536.98,536.98,76,Returns Desk,0,,None
+SO-00527,Costco,West,Sale,2026-01-21,Pending Review,HE-1008,16,706.97,11311.52,,0,0,706.97,706.97,67,Returns Desk,1,,None
+SO-00528,Walmart,South,Sale,2026-02-18,Processing,HE-1006,1,442.61,442.61,,0,0,442.61,442.61,39,Order Management,0,,None
+SO-00529,Best Buy,East,Sale,2026-01-07,Closed,HE-1008,18,91.88,1653.84,,0,0,91.88,80.3,81,Customer Care,0,,Debit Memo
+SO-00530,Costco,West,Return,2026-03-23,Open,HE-1001,24,253.12,6074.88,RA-10530,24,22,253.12,253.12,6,Order Management,0,,None
+SO-00531,Costco,West,Return,2026-03-25,Pending Review,HE-1004,8,104.25,834.0,RA-10531,8,5,104.25,104.25,4,Sales Ops,0,Incorrect item received,None
+SO-00532,Walmart,South,Return,2026-03-16,Processing,HE-1003,27,659.57,17808.39,RA-10532,27,26,659.57,659.57,13,Customer Care,1,,None
+SO-00533,Best Buy,East,Sale,2026-01-29,Open,HE-1004,24,149.8,3595.2,,0,0,149.8,149.8,59,Sales Ops,0,,None
+SO-00534,Lowe's,East,Return,2025-12-30,Pending Review,HE-1003,18,149.87,2697.66,RA-10534,18,15,149.87,149.87,89,Sales Ops,0,,None
+SO-00535,Costco,West,Sale,2026-01-17,Closed,HE-1008,6,341.13,2046.78,,0,0,341.13,341.13,71,Returns Desk,0,,None
+SO-00536,Macy's,East,Return,2025-12-25,Processing,HE-1007,16,227.24,3635.84,,16,15,227.24,227.24,94,Order Management,1,,None
+SO-00537,Target,Central,Return,2026-01-27,Closed,HE-1004,33,78.37,2586.21,RA-10537,33,30,78.37,78.37,61,Customer Care,1,,None
+SO-00538,Walmart,South,Sale,2026-03-27,Closed,HE-1001,27,715.2,19310.4,,0,0,715.2,709.92,2,Order Management,0,,Debit Memo
+SO-00539,Macy's,East,Sale,2026-03-08,Closed,HE-1003,37,574.36,21251.32,,0,0,574.36,575.92,21,Customer Care,0,,Credit Memo
+SO-00540,Lowe's,East,Sale,2025-12-28,Closed,HE-1007,5,322.49,1612.45,,0,0,322.49,322.49,91,Sales Ops,0,,None

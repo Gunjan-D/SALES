@@ -1,0 +1,12 @@
+metric_name,metric_value,reporting_week
+total_orders,540.0,2026-03-29
+return_orders,184.0,2026-03-29
+open_orders,323.0,2026-03-29
+aged_orders,234.0,2026-03-29
+missing_ra_cases,30.0,2026-03-29
+open_customer_inquiries,84.0,2026-03-29
+discrepancy_count,608.0,2026-03-29
+memo_recommendations,106.0,2026-03-29
+total_memo_value,27238.51,2026-03-29
+invalid_compliance_cases,57.0,2026-03-29
+invalid_compliance_value,20142.05,2026-03-29
