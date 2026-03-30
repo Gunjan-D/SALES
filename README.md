@@ -76,6 +76,22 @@ python src/dashboard_server.py
 
 5. Open `http://127.0.0.1:8000` in your browser.
 
+## Public Hosting (GitHub Pages)
+
+This project can be published as a static site on GitHub Pages. I included a static dashboard snapshot at `web/dashboard.json` which the frontend will use when the dynamic API is not available. To publish the site:
+
+- Ensure `web/dashboard.json` exists by running:
+
+```powershell
+python src/build_static_dashboard.py
+```
+
+- Push the `main` branch to GitHub and enable GitHub Pages in the repository settings using the `gh-pages` branch or the `main` branch with `/ (root)` as the source. The site will be available at:
+
+https://gunjan-d.github.io/SALES/
+
+Keep this link visible in the README so visitors can open the public demo.
+
 ## SQL Assets
 
 The `sql/` folder includes:

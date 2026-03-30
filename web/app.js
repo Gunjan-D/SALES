@@ -76,12 +76,24 @@ function renderTable(targetId, rows, columns) {
 }
 
 async function loadDashboard() {
-    const response = await fetch("/api/dashboard");
-    const payload = await response.json();
+    let payload = null;
+    try {
+        const response = await fetch("/api/dashboard");
+        if (response.ok) {
+            payload = await response.json();
+        }
+    } catch (e) {
+        // ignore and try static fallback
+    }
 
-    if (!response.ok) {
-        document.body.innerHTML = `<main class="error-shell"><h1>Dashboard unavailable</h1><p>${payload.error}</p></main>`;
-        return;
+    if (!payload) {
+        try {
+            const fallback = await fetch("/dashboard.json");
+            if (fallback.ok) payload = await fallback.json();
+        } catch (e) {
+            document.body.innerHTML = `<main class="error-shell"><h1>Dashboard unavailable</h1><p>Unable to load data from API or static fallback.</p></main>`;
+            return;
+        }
     }
 
     document.getElementById("reportingWeek").textContent = payload.reporting_week;

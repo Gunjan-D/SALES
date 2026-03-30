@@ -1,0 +1,399 @@
+{
+  "reporting_week": "2026-03-29",
+  "metrics": {
+    "aged_orders": 234.0,
+    "discrepancy_count": 608.0,
+    "invalid_compliance_cases": 57.0,
+    "invalid_compliance_value": 20142.05,
+    "memo_recommendations": 106.0,
+    "missing_ra_cases": 30.0,
+    "open_customer_inquiries": 84.0,
+    "open_orders": 323.0,
+    "return_orders": 184.0,
+    "total_memo_value": 27238.51,
+    "total_orders": 540.0
+  },
+  "overview": [
+    {
+      "label": "Return Mix",
+      "value": "34.1%",
+      "detail": "Share of total activity represented by return orders."
+    },
+    {
+      "label": "Aged Order Exposure",
+      "value": "43.3%",
+      "detail": "Open orders beyond monthly maintenance threshold."
+    },
+    {
+      "label": "Exception Density",
+      "value": "1.13",
+      "detail": "Average discrepancy records generated per order."
+    },
+    {
+      "label": "Compliance Dispute Rate",
+      "value": "10.6%",
+      "detail": "Invalid vendor deductions relative to total order volume."
+    }
+  ],
+  "priorities": [
+    {
+      "title": "Aged order cleanup",
+      "value": 234,
+      "detail": "Orders still open past guideline threshold and requiring analyst maintenance."
+    },
+    {
+      "title": "RA follow-up",
+      "value": 30,
+      "detail": "Return transactions missing authorization and requiring account communication."
+    },
+    {
+      "title": "Memo queue",
+      "value": 106,
+      "detail": "Debit and credit memo recommendations awaiting resolution workflow."
+    }
+  ],
+  "aged_orders": [
+    {
+      "order_id": "SO-00344",
+      "account_name": "Costco",
+      "order_type": "Sale",
+      "status": "Pending Review",
+      "days_open": 95,
+      "memo_action": "None"
+    },
+    {
+      "order_id": "SO-00113",
+      "account_name": "Walmart",
+      "order_type": "Sale",
+      "status": "Open",
+      "days_open": 95,
+      "memo_action": "Debit Memo"
+    },
+    {
+      "order_id": "SO-00262",
+      "account_name": "Amazon",
+      "order_type": "Sale",
+      "status": "Processing",
+      "days_open": 94,
+      "memo_action": "None"
+    },
+    {
+      "order_id": "SO-00189",
+      "account_name": "Home Depot",
+      "order_type": "Return",
+      "status": "Pending Review",
+      "days_open": 94,
+      "memo_action": "None"
+    },
+    {
+      "order_id": "SO-00536",
+      "account_name": "Macy's",
+      "order_type": "Return",
+      "status": "Processing",
+      "days_open": 94,
+      "memo_action": "None"
+    },
+    {
+      "order_id": "SO-00327",
+      "account_name": "Walmart",
+      "order_type": "Sale",
+      "status": "Processing",
+      "days_open": 94,
+      "memo_action": "None"
+    },
+    {
+      "order_id": "SO-00333",
+      "account_name": "Costco",
+      "order_type": "Sale",
+      "status": "Processing",
+      "days_open": 93,
+      "memo_action": "Credit Memo"
+    },
+    {
+      "order_id": "SO-00254",
+      "account_name": "Lowe's",
+      "order_type": "Sale",
+      "status": "Processing",
+      "days_open": 93,
+      "memo_action": "None"
+    },
+    {
+      "order_id": "SO-00520",
+      "account_name": "Lowe's",
+      "order_type": "Return",
+      "status": "Open",
+      "days_open": 93,
+      "memo_action": "None"
+    },
+    {
+      "order_id": "SO-00196",
+      "account_name": "Macy's",
+      "order_type": "Sale",
+      "status": "Pending Review",
+      "days_open": 93,
+      "memo_action": "None"
+    },
+    {
+      "order_id": "SO-00451",
+      "account_name": "Walmart",
+      "order_type": "Sale",
+      "status": "Open",
+      "days_open": 93,
+      "memo_action": "Debit Memo"
+    },
+    {
+      "order_id": "SO-00051",
+      "account_name": "Costco",
+      "order_type": "Sale",
+      "status": "Open",
+      "days_open": 92,
+      "memo_action": "Debit Memo"
+    }
+  ],
+  "ra_status": [
+    {
+      "account_name": "Macy's",
+      "return_orders": 28,
+      "ra_present": 21,
+      "ra_missing": 7
+    },
+    {
+      "account_name": "Lowe's",
+      "return_orders": 23,
+      "ra_present": 17,
+      "ra_missing": 6
+    },
+    {
+      "account_name": "Target",
+      "return_orders": 22,
+      "ra_present": 18,
+      "ra_missing": 4
+    },
+    {
+      "account_name": "Home Depot",
+      "return_orders": 20,
+      "ra_present": 16,
+      "ra_missing": 4
+    },
+    {
+      "account_name": "Costco",
+      "return_orders": 31,
+      "ra_present": 28,
+      "ra_missing": 3
+    },
+    {
+      "account_name": "Amazon",
+      "return_orders": 22,
+      "ra_present": 20,
+      "ra_missing": 2
+    },
+    {
+      "account_name": "Walmart",
+      "return_orders": 22,
+      "ra_present": 20,
+      "ra_missing": 2
+    },
+    {
+      "account_name": "Best Buy",
+      "return_orders": 16,
+      "ra_present": 14,
+      "ra_missing": 2
+    }
+  ],
+  "discrepancies": [
+    {
+      "order_id": "SO-00022",
+      "issue_type": "Aged Order",
+      "severity": "High",
+      "resolution_owner": "Order Management",
+      "account_name": "Amazon",
+      "status": "Open"
+    },
+    {
+      "order_id": "SO-00044",
+      "issue_type": "Aged Order",
+      "severity": "High",
+      "resolution_owner": "Order Management",
+      "account_name": "Amazon",
+      "status": "Open"
+    },
+    {
+      "order_id": "SO-00048",
+      "issue_type": "Aged Order",
+      "severity": "High",
+      "resolution_owner": "Order Management",
+      "account_name": "Amazon",
+      "status": "Open"
+    },
+    {
+      "order_id": "SO-00055",
+      "issue_type": "Aged Order",
+      "severity": "High",
+      "resolution_owner": "Order Management",
+      "account_name": "Amazon",
+      "status": "Open"
+    },
+    {
+      "order_id": "SO-00072",
+      "issue_type": "Aged Order",
+      "severity": "High",
+      "resolution_owner": "Order Management",
+      "account_name": "Amazon",
+      "status": "Open"
+    },
+    {
+      "order_id": "SO-00084",
+      "issue_type": "Aged Order",
+      "severity": "High",
+      "resolution_owner": "Order Management",
+      "account_name": "Amazon",
+      "status": "Open"
+    },
+    {
+      "order_id": "SO-00115",
+      "issue_type": "Aged Order",
+      "severity": "High",
+      "resolution_owner": "Order Management",
+      "account_name": "Amazon",
+      "status": "Open"
+    },
+    {
+      "order_id": "SO-00131",
+      "issue_type": "Aged Order",
+      "severity": "High",
+      "resolution_owner": "Order Management",
+      "account_name": "Amazon",
+      "status": "Open"
+    },
+    {
+      "order_id": "SO-00140",
+      "issue_type": "Aged Order",
+      "severity": "High",
+      "resolution_owner": "Order Management",
+      "account_name": "Amazon",
+      "status": "Open"
+    },
+    {
+      "order_id": "SO-00143",
+      "issue_type": "Aged Order",
+      "severity": "High",
+      "resolution_owner": "Order Management",
+      "account_name": "Amazon",
+      "status": "Open"
+    },
+    {
+      "order_id": "SO-00150",
+      "issue_type": "Aged Order",
+      "severity": "High",
+      "resolution_owner": "Order Management",
+      "account_name": "Amazon",
+      "status": "Open"
+    },
+    {
+      "order_id": "SO-00160",
+      "issue_type": "Aged Order",
+      "severity": "High",
+      "resolution_owner": "Order Management",
+      "account_name": "Amazon",
+      "status": "Open"
+    }
+  ],
+  "compliance": [
+    {
+      "case_id": "VC-0047",
+      "order_id": "SO-00074",
+      "account_name": "Walmart",
+      "deduction_code": "OTIF",
+      "charge_amount": 642.96,
+      "dispute_status": "Recovered"
+    },
+    {
+      "case_id": "VC-0060",
+      "order_id": "SO-00220",
+      "account_name": "Best Buy",
+      "deduction_code": "ROUTING",
+      "charge_amount": 639.8,
+      "dispute_status": "Under Review"
+    },
+    {
+      "case_id": "VC-0016",
+      "order_id": "SO-00079",
+      "account_name": "Target",
+      "deduction_code": "SHORTAGE",
+      "charge_amount": 629.79,
+      "dispute_status": "Under Review"
+    },
+    {
+      "case_id": "VC-0034",
+      "order_id": "SO-00483",
+      "account_name": "Walmart",
+      "deduction_code": "LABEL",
+      "charge_amount": 629.43,
+      "dispute_status": "Under Review"
+    },
+    {
+      "case_id": "VC-0010",
+      "order_id": "SO-00280",
+      "account_name": "Target",
+      "deduction_code": "SHORTAGE",
+      "charge_amount": 625.89,
+      "dispute_status": "Recovered"
+    },
+    {
+      "case_id": "VC-0030",
+      "order_id": "SO-00447",
+      "account_name": "Costco",
+      "deduction_code": "LABEL",
+      "charge_amount": 625.24,
+      "dispute_status": "Submitted"
+    },
+    {
+      "case_id": "VC-0054",
+      "order_id": "SO-00535",
+      "account_name": "Costco",
+      "deduction_code": "ASN",
+      "charge_amount": 593.27,
+      "dispute_status": "Submitted"
+    },
+    {
+      "case_id": "VC-0029",
+      "order_id": "SO-00064",
+      "account_name": "Macy's",
+      "deduction_code": "SHORTAGE",
+      "charge_amount": 580.55,
+      "dispute_status": "Submitted"
+    },
+    {
+      "case_id": "VC-0036",
+      "order_id": "SO-00237",
+      "account_name": "Costco",
+      "deduction_code": "ROUTING",
+      "charge_amount": 573.68,
+      "dispute_status": "Recovered"
+    },
+    {
+      "case_id": "VC-0062",
+      "order_id": "SO-00025",
+      "account_name": "Home Depot",
+      "deduction_code": "OTIF",
+      "charge_amount": 561.55,
+      "dispute_status": "Submitted"
+    },
+    {
+      "case_id": "VC-0083",
+      "order_id": "SO-00066",
+      "account_name": "Best Buy",
+      "deduction_code": "SHORTAGE",
+      "charge_amount": 551.78,
+      "dispute_status": "Recovered"
+    },
+    {
+      "case_id": "VC-0088",
+      "order_id": "SO-00019",
+      "account_name": "Target",
+      "deduction_code": "ROUTING",
+      "charge_amount": 534.14,
+      "dispute_status": "Submitted"
+    }
+  ]
+}
