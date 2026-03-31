@@ -1,8 +1,10 @@
 # Sales Order & Return Reconciliation Tracker
 
-Short description: Local Sales Order & Return Reconciliation Tracker — generates simulated orders, flags discrepancies, recommends memos, and serves an interactive dashboard.
+**Live dashboard → [https://gunjan-d.github.io/SALES/](https://gunjan-d.github.io/SALES/)**
 
-Project summary: This resume-ready business analyst portfolio project simulates sales and return operations to demonstrate reconciliation workflows, exception detection, memo recommendations, RA tracking, and vendor compliance dispute logging. It produces CSV/Excel exports and a local web dashboard for stakeholder reporting and operational review.
+> Local Sales Order & Return Reconciliation Tracker — generates simulated orders, flags discrepancies, recommends memos, and serves an interactive dashboard.
+
+This resume-ready business analyst portfolio project simulates sales and return operations to demonstrate reconciliation workflows, exception detection, memo recommendations, RA tracking, and vendor compliance dispute logging. It produces CSV/Excel exports and a local web dashboard for stakeholder reporting and operational review.
 
 This project is a resume-ready business analyst portfolio piece designed for roles focused on sales order management, returns processing, reconciliation, vendor compliance, and customer support.
 

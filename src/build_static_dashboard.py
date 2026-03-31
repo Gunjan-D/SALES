@@ -139,7 +139,9 @@ def build_payload():
 
 
 if __name__ == "__main__":
-    out_path = BASE_DIR / "web" / "dashboard.json"
     payload = build_payload()
-    out_path.write_text(json.dumps(payload, indent=2), encoding="utf-8")
-    print(f"Wrote static dashboard to {out_path}")
+    for folder in ("web", "docs"):
+        out_path = BASE_DIR / folder / "dashboard.json"
+        if out_path.parent.exists():
+            out_path.write_text(json.dumps(payload, indent=2), encoding="utf-8")
+            print(f"Wrote static dashboard to {out_path}")

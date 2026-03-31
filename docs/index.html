@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Order & Return Reconciliation Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page-shell">
+        <header class="topbar">
+            <div>
+                <p class="topbar-label">Operations Analytics Portfolio</p>
+                <p class="topbar-title">Sales and Returns Control Tower</p>
+            </div>
+            <div class="topbar-actions">
+                <a class="topbar-link" href="/downloads/sales_return_tracker.xlsx">Excel Workbook</a>
+                <a class="topbar-link" href="/downloads/sales_operations.db">SQLite Database</a>
+            </div>
+        </header>
+
+        <header class="hero">
+            <div class="hero-copy">
+                <p class="eyebrow">Business Analyst Portfolio Project</p>
+                <h1>Sales Order & Return Reconciliation Tracker</h1>
+                <p class="hero-text">
+                    A local analyst operations console for order entry support, return authorization tracking,
+                    pricing reconciliation, debit and credit memo recommendations, vendor compliance disputes,
+                    and stakeholder-ready operational reporting.
+                </p>
+                <div class="hero-meta">
+                    <div>
+                        <p class="meta-label">Environment</p>
+                        <p class="meta-value">Onsite Order Management Simulation</p>
+                    </div>
+                    <div>
+                        <p class="meta-label">Focus</p>
+                        <p class="meta-value">Sales, Returns, Reconciliation, Compliance</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-panel">
+                <p class="panel-label">Reporting Week</p>
+                <p id="reportingWeek" class="panel-value">Loading...</p>
+                <div class="panel-statements" id="overviewCards"></div>
+                <div class="panel-links">
+                    <a href="/downloads/orders.csv">Orders Export</a>
+                    <a href="/downloads/vendor_compliance.csv">Compliance Export</a>
+                </div>
+            </div>
+        </header>
+
+        <section class="metrics-grid" id="metricsGrid"></section>
+
+        <section class="priority-strip" id="priorityStrip"></section>
+
+        <section class="content-grid">
+            <article class="card wide-card">
+                <div class="card-header">
+                    <h2>Aged Open Orders</h2>
+                    <p>Orders past guideline thresholds requiring monthly maintenance and account follow-up.</p>
+                </div>
+                <div id="agedOrdersTable"></div>
+            </article>
+
+            <article class="card">
+                <div class="card-header">
+                    <h2>RA Status by Account</h2>
+                    <p>Return authorization coverage and missing-authorization exposure by account.</p>
+                </div>
+                <div id="raStatusTable"></div>
+            </article>
+
+            <article class="card wide-card">
+                <div class="card-header">
+                    <h2>Open Discrepancy Queue</h2>
+                    <p>Research and reconciliation exceptions routed by severity, owner, and account impact.</p>
+                </div>
+                <div id="discrepanciesTable"></div>
+            </article>
+
+            <article class="card wide-card">
+                <div class="card-header">
+                    <h2>Invalid Vendor Compliance Deductions</h2>
+                    <p>High-value deductions prioritized for dispute, recovery, and preventive action logging.</p>
+                </div>
+                <div id="complianceTable"></div>
+            </article>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
