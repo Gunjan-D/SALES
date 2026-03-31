@@ -121,7 +121,7 @@ You can use or adapt these bullets for your resume:
 - Automated discrepancy detection and debit/credit memo recommendations by reconciling order, return, pricing, and authorization records, reducing manual review effort through rules-based exception handling.
 - Designed a vendor compliance dispute log and weekly operational dashboard that tracked invalid chargebacks, valid compliance violations, and account-level return activity for stakeholder reporting.
 
-/////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
 
 ## Project Structure
 
